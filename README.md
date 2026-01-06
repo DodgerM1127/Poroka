@@ -39,3 +39,5 @@ You should receive a JSON response with a `confirmed` array of guest names.
 
 ## Notes
 - This is a minimal starter. For production, use Supabase (or Postgres), secure admin auth, and add spam protection.
+
+
