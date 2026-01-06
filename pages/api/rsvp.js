@@ -23,6 +23,19 @@ export default async function handler(req, res) {
     if (supabase) {
       const { error } = await supabase.from('rsvps').insert([entry])
       if (error) throw error
+
+      // Notify guest and admins (async, non-blocking)
+      ;(async () => {
+        try {
+          const { sendConfirmation, sendAdminNotification } = await import('../../lib/email')
+          const adminEmails = (process.env.ADMIN_EMAILS || process.env.EMAIL_FROM || '').split(',').map(s => s.trim()).filter(Boolean)
+          await sendConfirmation(entry.email, entry.name, entry)
+          if (adminEmails.length) await sendAdminNotification(adminEmails, entry)
+        } catch (e) {
+          console.error('Email send failed (supabase):', e)
+        }
+      })()
+
       const { data: confirmed } = await supabase.from('rsvps').select('name').eq('attending', true)
       const names = (confirmed || []).map(r => r.name)
       return res.status(200).json({ success: true, confirmed: names })
@@ -42,6 +55,18 @@ export default async function handler(req, res) {
       // Likely running on a serverless platform where filesystem is read-only.
       console.error('RSVP write fallback failed:', writeErr)
       // Return success so the user sees confirmation; recommend persistent storage for production
+      // try to notify emails even if we couldn't persist
+      ;(async () => {
+        try {
+          const { sendConfirmation, sendAdminNotification } = await import('../../lib/email')
+          const adminEmails = (process.env.ADMIN_EMAILS || process.env.EMAIL_FROM || '').split(',').map(s => s.trim()).filter(Boolean)
+          await sendConfirmation(entry.email, entry.name, entry)
+          if (adminEmails.length) await sendAdminNotification(adminEmails, entry)
+        } catch (e) {
+          console.error('Email send failed (fallback):', e)
+        }
+      })()
+
       return res.status(200).json({ success: true, confirmed: [entry.name], warning: 'Could not persist RSVP on server. Enable SUPABASE_URL and SUPABASE_KEY for persistent storage.' })
     }
   } catch (err) {
