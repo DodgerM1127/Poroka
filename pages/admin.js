@@ -20,7 +20,9 @@ export default function Admin() {
 
   function exportCSV() {
     if (!data) return
-    const csv = [Object.keys(data[0] || {}).join(','), ...data.map(r => Object.values(r).map(v => '"' + String(v).replace(/"/g, '""') + '"').join(','))].join('\n')
+    const headers = ['Name', 'Attending', 'Guests', 'Submitted']
+    const rows = data.map(r => [r.name, r.attending ? 'Da' : 'Ne', r.party_size, r.submitted_at])
+    const csv = [headers.join(','), ...rows.map(row => row.map(v => '"' + String(v).replace(/"/g, '""') + '"').join(','))].join('\n')
     const blob = new Blob([csv], { type: 'text/csv' })
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
@@ -50,10 +52,10 @@ export default function Admin() {
             <button className="px-3 py-2 rounded bg-green-500 text-white" onClick={exportCSV}>Export CSV</button>
           </div>
           <table className="w-full border">
-            <thead className="bg-gray-100"><tr><th className="p-2">Name</th><th className="p-2">Email</th><th className="p-2">Attending</th><th className="p-2">Guests</th><th className="p-2">Submitted</th></tr></thead>
+            <thead className="bg-gray-100"><tr><th className="p-2">Name</th><th className="p-2">Attending</th><th className="p-2">Guests</th><th className="p-2">Submitted</th></tr></thead>
             <tbody>
               {data.map((r, i) => (
-                <tr key={i} className="border-t"><td className="p-2">{r.name}</td><td className="p-2">{r.email}</td><td className="p-2">{String(r.attending)}</td><td className="p-2">{r.party_size}</td><td className="p-2">{r.submitted_at}</td></tr>
+                <tr key={i} className="border-t"><td className="p-2">{r.name}</td><td className="p-2">{r.attending ? 'Da' : 'Ne'}</td><td className="p-2">{r.party_size}</td><td className="p-2">{r.submitted_at}</td></tr>
               ))}
             </tbody>
           </table>
