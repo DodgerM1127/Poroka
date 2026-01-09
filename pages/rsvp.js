@@ -3,19 +3,21 @@ import RSVPForm from '../components/RSVPForm'
 import ConfirmedPopup from '../components/ConfirmedPopup'
 
 export default function RSVPPage() {
-  const [popupGuests, setPopupGuests] = useState([])
+  const [popupMessage, setPopupMessage] = useState(null)
 
   async function onSuccess(data, submittedName) {
-    // show only the submitter's name in the popup
+    // show only a personalized Slovenian message to the submitter
     if (submittedName) {
-      setPopupGuests([submittedName])
+      const message = `Hvala, ${submittedName}! Vaš odgovor je prejet. Če se karkoli spremeni, nama prosim sporočite.`
+      setPopupMessage(message)
       return
     }
 
     // fallback: if API returned confirmed list, show only the latest submitted name
     if (data?.confirmed && Array.isArray(data.confirmed) && data.confirmed.length > 0) {
       const last = data.confirmed[data.confirmed.length - 1]
-      setPopupGuests([last])
+      const message = `Hvala, ${last}! Vaš odgovor je prejet. Če se karkoli spremeni, nama prosim sporočite.`
+      setPopupMessage(message)
     }
   }
 
@@ -25,8 +27,8 @@ export default function RSVPPage() {
       <p className="text-gray-600">Please let us know if you can join us.</p>
       <RSVPForm onSuccess={onSuccess} />
 
-      {popupGuests && popupGuests.length > 0 && (
-        <ConfirmedPopup guests={popupGuests} onClose={() => setPopupGuests([])} />
+      {popupMessage && (
+        <ConfirmedPopup message={popupMessage} onClose={() => setPopupMessage(null)} />
       )}
     </div>
   )
