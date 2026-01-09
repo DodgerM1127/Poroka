@@ -15,7 +15,8 @@ export default function RSVPForm({ onSuccess }) {
       const res = await fetch('/api/rsvp', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(form) })
       const data = await res.json()
       if (!res.ok) throw new Error(data?.error || 'Unknown error')
-      onSuccess && onSuccess(data)
+      // pass the submitted name so the popup can show only the submitter
+      onSuccess && onSuccess(data, form.name)
       setForm({ name: '', email: '', attending: 'yes', party_size: 1, message: '' })
     } catch (err) {
       setError(err.message)

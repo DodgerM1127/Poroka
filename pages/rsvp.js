@@ -5,9 +5,18 @@ import ConfirmedPopup from '../components/ConfirmedPopup'
 export default function RSVPPage() {
   const [popupGuests, setPopupGuests] = useState([])
 
-  async function onSuccess(data) {
-    // data should include `confirmed` array of guest names
-    if (data?.confirmed) setPopupGuests(data.confirmed)
+  async function onSuccess(data, submittedName) {
+    // show only the submitter's name in the popup
+    if (submittedName) {
+      setPopupGuests([submittedName])
+      return
+    }
+
+    // fallback: if API returned confirmed list, show only the latest submitted name
+    if (data?.confirmed && Array.isArray(data.confirmed) && data.confirmed.length > 0) {
+      const last = data.confirmed[data.confirmed.length - 1]
+      setPopupGuests([last])
+    }
   }
 
   return (
@@ -16,8 +25,8 @@ export default function RSVPPage() {
       <p className="text-gray-600">Please let us know if you can join us.</p>
       <RSVPForm onSuccess={onSuccess} />
 
-      {popupGuests.length >= 0 && popupGuests && (
-        <>{popupGuests.length >= 0 && popupGuests.length !== 0 && <ConfirmedPopup guests={popupGuests} onClose={() => setPopupGuests([])} />}</>
+      {popupGuests && popupGuests.length > 0 && (
+        <ConfirmedPopup guests={popupGuests} onClose={() => setPopupGuests([])} />
       )}
     </div>
   )
