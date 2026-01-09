@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 export default function RSVPForm({ onSuccess }) {
-  const [form, setForm] = useState({ name: '', email: '', attending: 'yes', party_size: 1, message: '' })
+  const [form, setForm] = useState({ name: '', email: '', attending: 'yes', message: '' })
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
@@ -12,12 +12,13 @@ export default function RSVPForm({ onSuccess }) {
     setLoading(true)
     setError('')
     try {
-      const res = await fetch('/api/rsvp', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(form) })
+      const payload = { ...form, party_size: 1 }
+      const res = await fetch('/api/rsvp', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
       const data = await res.json()
       if (!res.ok) throw new Error(data?.error || 'Unknown error')
       // pass the submitted name so the popup can show only the submitter
       onSuccess && onSuccess(data, form.name)
-      setForm({ name: '', email: '', attending: 'yes', party_size: 1, message: '' })
+      setForm({ name: '', email: '', attending: 'yes', message: '' })
     } catch (err) {
       setError(err.message)
     } finally {
@@ -44,8 +45,7 @@ export default function RSVPForm({ onSuccess }) {
         </select>
       </div>
       <div>
-        <label className="block text-sm font-medium">Število gostov</label>
-        <input name="party_size" type="number" min="1" value={form.party_size} onChange={handle} className="mt-1 block w-full rounded border px-3 py-2" />
+        <div className="text-sm text-gray-600">Če prihaja več oseb, prosimo izpolnite obrazec posebej za vsakega gosta.</div>
       </div>
       <div>
         <label className="block text-sm font-medium">Sporoči nama kaj lepega</label>
