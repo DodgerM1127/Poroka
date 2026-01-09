@@ -29,30 +29,30 @@ export default function RSVPForm({ onSuccess }) {
     <form onSubmit={submit} className="space-y-4 max-w-md">
       {error && <div className="text-red-600">{error}</div>}
       <div>
-        <label className="block text-sm font-medium">Name</label>
-        <input name="name" value={form.name} onChange={handle} className="mt-1 block w-full rounded border px-3 py-2" required />
+        <label className="block text-sm font-medium">Ime in Priimek</label>
+        <input name="name" value={form.name} onChange={handle} className="mt-1 block w-full rounded border px-3 py-2" placeholder="Vnesite ime in priimek" required />
       </div>
       <div>
-        <label className="block text-sm font-medium">Email</label>
-        <input name="email" type="email" value={form.email} onChange={handle} className="mt-1 block w-full rounded border px-3 py-2" required />
+        <label className="block text-sm font-medium">E-pošta</label>
+        <input name="email" type="email" value={form.email} onChange={handle} className="mt-1 block w-full rounded border px-3 py-2" placeholder="ime@primer.si" required />
       </div>
       <div>
-        <label className="block text-sm font-medium">Attending</label>
+        <label className="block text-sm font-medium">Prideš?</label>
         <select name="attending" value={form.attending} onChange={handle} className="mt-1 block w-full rounded border px-3 py-2">
-          <option value="yes">Yes</option>
-          <option value="no">No</option>
+          <option value="yes">Da</option>
+          <option value="no">Ne</option>
         </select>
       </div>
       <div>
-        <label className="block text-sm font-medium">Number of guests</label>
+        <label className="block text-sm font-medium">Število gostov</label>
         <input name="party_size" type="number" min="1" value={form.party_size} onChange={handle} className="mt-1 block w-full rounded border px-3 py-2" />
       </div>
       <div>
-        <label className="block text-sm font-medium">Message / Song request</label>
+        <label className="block text-sm font-medium">Sporoči nama kaj lepega</label>
         <textarea name="message" value={form.message} onChange={handle} className="mt-1 block w-full rounded border px-3 py-2" />
       </div>
       <div>
-        <button className="rounded bg-pink-600 text-white px-4 py-2" disabled={loading}>{loading ? 'Sending...' : 'Send RSVP'}</button>
+        <button className="rounded bg-pink-600 text-white px-4 py-2" disabled={loading}>{loading ? 'Pošiljam...' : 'Pošlji odgovor'}</button>
       </div>
     </form>
   )
