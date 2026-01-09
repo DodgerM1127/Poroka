@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 export default function RSVPForm({ onSuccess }) {
-  const [form, setForm] = useState({ name: '', email: '', attending: 'yes', message: '' })
+  const [form, setForm] = useState({ name: '', attending: 'yes', message: '' })
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
@@ -18,7 +18,7 @@ export default function RSVPForm({ onSuccess }) {
       if (!res.ok) throw new Error(data?.error || 'Unknown error')
       // pass the submitted name so the popup can show only the submitter
       onSuccess && onSuccess(data, form.name)
-      setForm({ name: '', email: '', attending: 'yes', message: '' })
+      setForm({ name: '', attending: 'yes', message: '' })
     } catch (err) {
       setError(err.message)
     } finally {
@@ -33,10 +33,7 @@ export default function RSVPForm({ onSuccess }) {
         <label className="block text-sm font-medium">Ime in Priimek</label>
         <input name="name" value={form.name} onChange={handle} className="mt-1 block w-full rounded border px-3 py-2" placeholder="Vnesite ime in priimek" required />
       </div>
-      <div>
-        <label className="block text-sm font-medium">E-pošta</label>
-        <input name="email" type="email" value={form.email} onChange={handle} className="mt-1 block w-full rounded border px-3 py-2" placeholder="ime@primer.si" required />
-      </div>
+
       <div>
         <label className="block text-sm font-medium">Prideš?</label>
         <select name="attending" value={form.attending} onChange={handle} className="mt-1 block w-full rounded border px-3 py-2">

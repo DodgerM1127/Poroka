@@ -13,11 +13,11 @@ function ensureDataDir() {
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' })
   const { name, email, attending, party_size, message } = req.body || {}
-  if (!name || !email) return res.status(400).json({ error: 'Name and email are required' })
+  if (!name) return res.status(400).json({ error: 'Name is required' })
 
   // log the received payload for debugging
   console.log('RSVP payload:', req.body)
-  const entry = { name, email, attending: attending === 'yes', party_size: Number(party_size) || 1, message: message || '', submitted_at: new Date().toISOString() }
+  const entry = { name, email: email || '', attending: attending === 'yes', party_size: Number(party_size) || 1, message: message || '', submitted_at: new Date().toISOString() }
 
   try {
     if (supabase) {
