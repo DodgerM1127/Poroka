@@ -37,10 +37,6 @@ You should receive a JSON response with a `confirmed` array of guest names.
 - Recommended: Deploy to Vercel (connect your GitHub repo, set env vars in Vercel dashboard)
 - Domain: `gajamatej.com` (configure DNS to point to Vercel)
 
-Email confirmations (SendGrid)
-- Set these environment variables in Vercel: `SENDGRID_API_KEY`, `EMAIL_FROM`, and optionally `ADMIN_EMAILS` (comma-separated admin addresses).
-- To send from your personal email, verify the sender/email in SendGrid (or verify your domain) so SendGrid accepts the From address.
-- The API will send a confirmation to the guest and notify admins on each new RSVP. Email delivery errors do not cause RSVP to fail.
 
 ## Notes
 - This is a minimal starter. For production, use Supabase (or Postgres), secure admin auth, and add spam protection.

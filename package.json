@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.0.0",
-    "@sendgrid/mail": "^8.9.0",
     "autoprefixer": "^10.4.14",
     "next": "^13.5.11",
     "postcss": "^8.4.23",
