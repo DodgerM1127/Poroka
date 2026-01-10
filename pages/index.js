@@ -22,8 +22,8 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative h-96 bg-gray-200 bg-center bg-cover flex items-center justify-center">
-        {/* Background image can be added here: add class bg-[url('/images/hero.jpg')] to this section when ready */}
+      <section className="relative h-96 bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: "url('/images/1.jpg')", backgroundPosition: 'center', backgroundSize: 'cover' }}>
+        {/* Use /public/images/1.jpg as hero background */}
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative text-center text-white z-10 px-6 max-w-2xl">
           <h2 className="text-5xl font-serif font-bold mb-4">Proslavljava najino ljubezen</h2>
@@ -41,8 +41,8 @@ export default function Home() {
       <section id="schedule" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-teal-600 mb-6">Program poroke</h3>
         <ul className="space-y-4 text-gray-700">
-          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">14:00</span> <span>Cerkev — obred v Rakovniku, Ljubljana</span></li>
-          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">16:00</span> <span>Pogostitev — Gostilna Javornik</span></li>
+          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">14:00</span> <span>Poroka — obred v Župnijski cerkevi Marije Pomočnice </span></li>
+          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">16:00</span> <span>Pogostitev — poleg cerkve</span></li>
           <li className="flex items-start gap-4"><span className="font-mono text-teal-600">18:00</span> <span>Premik na Javornik — druženje in ples</span></li>
         </ul>
       </section>
@@ -55,8 +55,8 @@ export default function Home() {
             Preberite, kako sva se spoznala, o najinem zaroki in poti skupaj. Vesela sva, da z vami deliva najino zgodbo.
           </p>
         </div>
-        <div className="bg-gray-300 h-64 rounded flex items-center justify-center text-gray-500">
-          Fotografija bo tukaj
+        <div>
+          <img src="/images/2.jpg" alt="O najini zgodbi" className="w-full h-64 object-cover rounded" />
         </div>
       </section>
 
@@ -64,8 +64,17 @@ export default function Home() {
       <section id="gallery" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-teal-600 mb-6">Foto galerija</h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          {Array.from({ length: 6 }).map((_, i) => (
-            <div key={i} className="bg-gray-200 h-40 rounded flex items-center justify-center text-gray-500">Fotografija bo tukaj</div>
+          {[
+            '/images/ANA09113.jpg',
+            '/images/ANA09140.jpg',
+            '/images/ANA09147.jpg',
+            '/images/ANA09180.jpg',
+            '/images/ANA09308.jpg',
+            '/images/ANA09677.jpg'
+          ].map((src, i) => (
+            <div key={i} className="h-40 rounded overflow-hidden">
+              <img src={src} alt={`Fotografija ${i + 1}`} className="w-full h-full object-cover" />
+            </div>
           ))}
         </div>
       </section>
