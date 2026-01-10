@@ -13,6 +13,7 @@ export default function RSVPForm({ onSuccess }) {
     setError('')
     try {
       const payload = { ...form, party_size: 1 }
+      console.log('Submitting RSVP payload:', payload)
       const res = await fetch('/api/rsvp', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
       const data = await res.json()
       if (!res.ok) throw new Error(data?.error || 'Unknown error')

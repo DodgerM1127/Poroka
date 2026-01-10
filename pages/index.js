@@ -8,14 +8,14 @@ export default function Home() {
       {/* Header */}
       <header className="bg-white shadow-sm">
         <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
-          <h1 className="text-3xl font-serif text-teal-600">G&M — Gaja & Matej</h1>
+          <h1 className="text-3xl font-serif text-teal-600">Gaja & Matej</h1>
         </div>
         <nav className="bg-white border-b">
           <div className="max-w-6xl mx-auto px-6 py-4 flex justify-center gap-8">
             <Link href="/"><a className="text-teal-600 font-semibold hover:text-teal-700">DOMOV</a></Link>
-            <a href="#story" className="text-gray-500 hover:text-gray-700">NAŠA ZGODBA</a>
+            <a href="#story" className="text-gray-500 hover:text-gray-700">NAJINA ZGODBA</a>
             <a href="#schedule" className="text-gray-500 hover:text-gray-700">PROGRAM POROKE</a>
-            <Link href="/rsvp"><a className="text-gray-500 hover:text-gray-700">POTRDI UDELEŽBO</a></Link>
+            <Link href="/rsvp"><a className="text-gray-500 hover:text-gray-700" onClick={() => console.log('Navigate to /rsvp (nav)')}>POTRDI UDELEŽBO</a></Link>
             <a href="#gallery" className="text-gray-500 hover:text-gray-700">FOTO GALERIJA</a>
           </div>
         </nav>
@@ -73,7 +73,7 @@ export default function Home() {
       {/* RSVP Button */}
       <section className="bg-gray-50 py-12 text-center">
         <Link href="/rsvp">
-          <a className="inline-block px-6 py-3 rounded bg-pink-600 text-white font-semibold hover:bg-pink-700">
+          <a className="inline-block px-6 py-3 rounded bg-pink-600 text-white font-semibold hover:bg-pink-700" onClick={() => console.log('Navigate to /rsvp (cta)')}>
             POTRDI UDELEŽBO
           </a>
         </Link>
