@@ -24,22 +24,22 @@ export default function Countdown({ targetDate }) {
   if (timeLeft == null) return <div className="text-xl">The wedding day has arrived 🎉</div>
 
   return (
-    <div className="flex gap-4 text-center">
+    <div className="flex flex-wrap justify-center gap-4 text-center">
       <div>
         <div className="text-4xl font-semibold">{timeLeft.days}</div>
-        <div className="text-sm text-gray-500">days</div>
+        <div className="text-sm text-gray-500">dni</div>
       </div>
       <div>
         <div className="text-4xl font-semibold">{timeLeft.hours}</div>
-        <div className="text-sm text-gray-500">hours</div>
+        <div className="text-sm text-gray-500">ure</div>
       </div>
       <div>
         <div className="text-4xl font-semibold">{timeLeft.minutes}</div>
-        <div className="text-sm text-gray-500">minutes</div>
+        <div className="text-sm text-gray-500">minute</div>
       </div>
       <div>
         <div className="text-4xl font-semibold">{timeLeft.seconds}</div>
-        <div className="text-sm text-gray-500">seconds</div>
+        <div className="text-sm text-gray-500">sekunde</div>
       </div>
     </div>
   )
