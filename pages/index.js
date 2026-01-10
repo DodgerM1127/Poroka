@@ -41,8 +41,8 @@ export default function Home() {
       <section id="schedule" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-teal-600 mb-6">Program poroke</h3>
         <ul className="space-y-4 text-gray-700">
-          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">14:00</span> <span>Cerkev — obred na Župniji sv. Nikolaja</span></li>
-          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">16:00</span> <span>Pogostitev in pogostitev pri restoranu</span></li>
+          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">14:00</span> <span>Cerkev — obred v Rakovniku, Ljubljana</span></li>
+          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">16:00</span> <span>Pogostitev — Gostilna Javornik</span></li>
           <li className="flex items-start gap-4"><span className="font-mono text-teal-600">18:00</span> <span>Premik na Javornik — druženje in ples</span></li>
         </ul>
       </section>
