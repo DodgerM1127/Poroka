@@ -13,7 +13,7 @@ export default function Home() {
         <nav className="bg-white border-b">
           <div className="max-w-6xl mx-auto px-6 py-4 flex justify-center gap-8">
             <Link href="/"><a className="text-teal-600 font-semibold hover:text-teal-700">DOMOV</a></Link>
-            <a href="#story" className="text-gray-500 hover:text-gray-700">NAJINA ZGODBA</a>
+            <a href="#wishes" className="text-gray-500 hover:text-gray-700">Najine želje</a>
             <a href="#schedule" className="text-gray-500 hover:text-gray-700">PROGRAM POROKE</a>
             <Link href="/rsvp"><a className="text-gray-500 hover:text-gray-700" onClick={() => console.log('Navigate to /rsvp (nav)')}>POTRDI UDELEŽBO</a></Link>
             <a href="#gallery" className="text-gray-500 hover:text-gray-700">FOTO GALERIJA</a>
@@ -43,17 +43,19 @@ export default function Home() {
         <ul className="space-y-4 text-gray-700">
           <li className="flex items-start gap-4"><span className="font-mono text-teal-600">14:00</span> <span>Poroka — obred v Župnijski cerkevi Marije Pomočnice </span></li>
           <li className="flex items-start gap-4"><span className="font-mono text-teal-600">16:00</span> <span>Slikanje — pred cerkvijo</span></li>
-          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">18:00</span> <span>Zakuska — <a href="https://www.google.com/maps/place/Dija%C5%A1ki+dom+Janeza+Boska/@46.0373266,14.5255353,19.55z/data=!4m6!3m5!1s0x47652d22f6689f6d:0xcbddcd1aaef38011!8m2!3d46.0370064!4d14.525536!16s%2Fg%2F11j81t443l?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="text-teal-600 hover:underline">sledi drugim</a></span></li>
+          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">18:00</span> <span>Zakuska — <a href="https://www.google.com/maps/place/Dija%C5%A1ki+dom+Janeza+Boska/@46.0373266,14.5255353,19.55z/data=!4m6!3m5!1s0x47652d22f6689f6d:0xcbddcd1aaef38011!8m2!3d46.0370064!4d14.525536!16s%2Fg%2F11j81t443l?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="text-teal-600 hover:underline" target="_blank">sledi drugim</a></span></li>
         </ul>
       </section>
 
-      {/* About Our Story Section */}
-      <section id="story" className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      {/* About Najine želje Section */}
+      <section id="wishes" className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
-          <h3 className="text-3xl font-bold text-teal-600 mb-6">O najini zgodbi</h3>
-          <p className="text-gray-600 text-lg leading-relaxed mb-4">
-            Preberite, kako sva se spoznala, o najinem zaroki in poti skupaj. Vesela sva, da z vami deliva najino zgodbo.
-          </p>
+          <h3 className="text-3xl font-bold text-teal-600 mb-6">Najine želje</h3>
+          <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
+            <p>Če ste v dilemi kaj bi si želela za darilo — odgovor je denar.</p>
+            <p>Dresscode: <a href="https://www.color-hex.com/color-palette/4385" target="_blank" className="text-teal-600 hover:underline">pastel</a></p>
+            <p>Prepovedane barve oblek: Bela, Črna, Rdeča</p>
+          </div>
         </div>
         <div>
           <img src="/images/2.jpg" alt="O najini zgodbi" className="w-full h-64 object-cover rounded" />
