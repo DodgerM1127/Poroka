@@ -7,8 +7,8 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       {/* Header */}
       <header className="bg-white shadow-sm">
-        <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-center">
-          <h1 className="text-3xl font-serif text-teal-600">Gaja & Matej — 29. 8.</h1>
+        <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+          <h1 className="text-3xl font-serif text-teal-600">Gaja & Matej 29. 8. 2026</h1>
         </div>
       </header>
 
