@@ -78,14 +78,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* RSVP Button */}
-      <section className="bg-gray-50 py-12 text-center">
-        <Link href="/rsvp">
-          <a className="inline-block px-6 py-3 rounded bg-pink-600 text-white font-semibold hover:bg-pink-700" onClick={() => console.log('Navigate to /rsvp (cta)')}>
-            POTRDI UDELEŽBO
-          </a>
-        </Link>
-      </section>
 
       <footer className="bg-white border-t mt-auto py-6 text-center text-gray-600 text-sm">
         <p>gajamatej.com — G&M — Gaja & Matej</p>
