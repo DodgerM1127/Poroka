@@ -24,6 +24,14 @@ export default function Home() {
         </div>
       </section>
 
+      {/* RSVP Button */}
+      <section className="py-8 text-center">
+        <Link href="/rsvp">
+          <a className="inline-block px-6 py-3 rounded bg-teal-600 text-white font-semibold hover:bg-teal-700" onClick={() => console.log('Navigate to /rsvp (cta)')}>POTRDI UDELEŽBO</a>
+        </Link>
+      </section>
+
+
       {/* Program Poroke (Schedule) */}
       <section id="schedule" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-teal-600 mb-6">Program poroke</h3>
