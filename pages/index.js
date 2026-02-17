@@ -11,9 +11,9 @@ export default function Home() {
         {/* Use /public/images/1.jpg as hero background */}
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative text-center text-white z-10 px-6 max-w-2xl">
-          <h2 className="text-5xl font-serif font-bold mb-4">Gaja & Matej</h2>
-          <h2 className="text-5xl font-serif font-bold mb-4">Proslavljava najino ljubezen</h2>
+          <h1 className="text-5xl font-serif font-bold mb-4">Gaja & Matej</h1>
           <h2 className="text-5xl font-serif font-bold mb-4">29. avgusta 2026</h2>
+          <h2 className="text-5xl font-serif font-bold mb-4">Proslavljava najino ljubezen</h2>
           {/* Countdown moved directly under the heading */}
           <div className="mb-6">
             <Countdown targetDate={target} />
