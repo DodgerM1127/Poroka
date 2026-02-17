@@ -5,21 +5,7 @@ export default function Home() {
   const target = '2026-08-29T14:00:00+01:00'
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Header */}
-      <header className="bg-white shadow-sm">
-        <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
-          <h1 className="text-3xl font-serif text-teal-600">Gaja & Matej</h1>
-        </div>
-        <nav className="bg-white border-b">
-          <div className="max-w-6xl mx-auto px-6 py-4 flex justify-center gap-8">
-            <Link href="/"><a className="text-teal-600 font-semibold hover:text-teal-700">DOMOV</a></Link>
-            <a href="#wishes" className="text-gray-500 hover:text-gray-700">NAJINE ŽELJE</a>
-            <a href="#schedule" className="text-gray-500 hover:text-gray-700">PROGRAM POROKE</a>
-            <Link href="/rsvp"><a className="text-gray-500 hover:text-gray-700" onClick={() => console.log('Navigate to /rsvp (nav)')}>POTRDI UDELEŽBO</a></Link>
-            <a href="#gallery" className="text-gray-500 hover:text-gray-700">FOTO GALERIJA</a>
-          </div>
-        </nav>
-      </header>
+      
 
       {/* Hero Section */}
       <section className="relative h-96 bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: "url('/images/1.jpg')", backgroundPosition: 'center', backgroundSize: 'cover' }}>
