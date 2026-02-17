@@ -42,8 +42,8 @@ export default function Home() {
         <h3 className="text-3xl font-bold text-teal-600 mb-6">Program poroke</h3>
         <ul className="space-y-4 text-gray-700">
           <li className="flex items-start gap-4"><span className="font-mono text-teal-600">14:00</span> <span>Poroka — obred v Župnijski cerkevi Marije Pomočnice </span></li>
-          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">16:00</span> <span>Pogostitev — poleg cerkve</span></li>
-          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">18:00</span> <span>Premik na Javornik — druženje in ples</span></li>
+          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">16:00</span> <span>Slikanje — pred cerkvijo</span></li>
+          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">18:00</span> <span>Zakuska — <a href="https://www.google.com/maps/place/Dija%C5%A1ki+dom+Janeza+Boska/@46.0373266,14.5255353,19.55z/data=!4m6!3m5!1s0x47652d22f6689f6d:0xcbddcd1aaef38011!8m2!3d46.0370064!4d14.525536!16s%2Fg%2F11j81t443l?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="text-teal-600 hover:underline">sledi drugim</a></span></li>
         </ul>
       </section>
 
