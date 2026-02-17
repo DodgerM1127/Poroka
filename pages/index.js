@@ -13,7 +13,7 @@ export default function Home() {
         <nav className="bg-white border-b">
           <div className="max-w-6xl mx-auto px-6 py-4 flex justify-center gap-8">
             <Link href="/"><a className="text-teal-600 font-semibold hover:text-teal-700">DOMOV</a></Link>
-            <a href="#wishes" className="text-gray-500 hover:text-gray-700">Najine želje</a>
+            <a href="#wishes" className="text-gray-500 hover:text-gray-700">NAJINE ŽELJE</a>
             <a href="#schedule" className="text-gray-500 hover:text-gray-700">PROGRAM POROKE</a>
             <Link href="/rsvp"><a className="text-gray-500 hover:text-gray-700" onClick={() => console.log('Navigate to /rsvp (nav)')}>POTRDI UDELEŽBO</a></Link>
             <a href="#gallery" className="text-gray-500 hover:text-gray-700">FOTO GALERIJA</a>
@@ -52,7 +52,7 @@ export default function Home() {
         <div>
           <h3 className="text-3xl font-bold text-teal-600 mb-6">Najine želje</h3>
           <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
-            <p>Če ste v dilemi kaj bi si želela za darilo — odgovor je denar.</p>
+            <p>Denar.</p>
             <p>Dresscode: <a href="https://www.color-hex.com/color-palette/4385" target="_blank" className="text-teal-600 hover:underline">pastel</a></p>
             <p>Prepovedane barve oblek: Bela, Črna, Rdeča</p>
           </div>
