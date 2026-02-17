@@ -5,7 +5,12 @@ export default function Home() {
   const target = '2026-08-29T14:00:00+01:00'
   return (
     <div className="min-h-screen flex flex-col">
-      
+      {/* Header */}
+      <header className="bg-white shadow-sm">
+        <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-center">
+          <h1 className="text-3xl font-serif text-teal-600">Gaja & Matej — 29. 8.</h1>
+        </div>
+      </header>
 
       {/* Hero Section */}
       <section className="relative h-96 bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: "url('/images/1.jpg')", backgroundPosition: 'center', backgroundSize: 'cover' }}>
