@@ -44,12 +44,11 @@ export default function Povabljeni() {
         </ul>
       </section>
 
-      {/* About Najine želje Section */}
+      {/* Dresscode in bonton Section */}
       <section id="wishes" className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
-          <h3 className="text-3xl font-bold text-teal-600 mb-6">Najine želje</h3>
+          <h3 className="text-3xl font-bold text-teal-600 mb-6">Dresscode in bonton</h3>
           <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
-            <p>Darila - Denar</p>
             <p>Dresscode: <a href="https://www.color-hex.com/color-palette/4385" target="_blank" className="text-teal-600 hover:underline">pastel</a></p>
             <p>Prepovedane barve oblek: Bela, Črna, Rdeča</p>
             <p>Brez kraje šopka</p>
