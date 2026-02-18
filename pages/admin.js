@@ -35,7 +35,7 @@ export default function Admin() {
     <div className="flex-1">
       <h3 className="text-xl font-semibold mb-4 text-center">{tableName}</h3>
       <table className="w-full border text-sm">
-        <thead className="bg-gray-100"><tr><th className="p-2">Name</th><th className="p-2">Attending</th><th className="p-2">Message</th><th className="p-2">Submitted</th></tr></thead>
+        <thead className="bg-gray-100"><tr><th className="p-2">Ime</th><th className="p-2">Pride</th><th className="p-2">Pesem / sporočilo</th><th className="p-2">Datum oddaje</th></tr></thead>
         <tbody>
           {tableData.map((r, i) => (
             <tr key={i} className="border-t"><td className="p-2">{r.name}</td><td className="p-2">{r.attending ? 'Da' : 'Ne'}</td><td className="p-2 max-w-xs truncate">{r.message || '-'}</td><td className="p-2 text-xs">{r.submitted_at}</td></tr>
