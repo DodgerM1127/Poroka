@@ -48,7 +48,7 @@ export default function Home() {
           <h3 className="text-3xl font-bold text-teal-600 mb-6">Najine želje</h3>
           <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
             <p>Darila - Denar</p>
-            <p>Dresscode: <a href="https://www.color-hex.com/color-palette/4385" target="_blank" className="text-teal-600 hover:underline">pastel</a></p>
+            <p>Dresscode: <a href="https://www.color-hex.com/color-palette/1223" target="_blank" className="text-teal-600 hover:underline">pastel</a></p>
             <p>Prepovedane barve oblek: Bela, Črna, Rdeča</p>
             <p>Brez kraje šopka</p>
             <p>Ni maškar</p>
