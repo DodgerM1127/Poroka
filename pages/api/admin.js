@@ -3,6 +3,7 @@ import path from 'path'
 import { supabase } from '../../lib/supabase'
 
 const dbFile = path.join(process.cwd(), 'data', 'rsvps.json')
+const dbFilePovabljeni = path.join(process.cwd(), 'data', 'rsvps_povabljeni.json')
 
 export default async function handler(req, res) {
   const pass = req.headers['x-passcode'] || ''
@@ -11,16 +12,25 @@ export default async function handler(req, res) {
 
   try {
     if (supabase) {
-      const { data, error } = await supabase.from('rsvps').select('*').order('submitted_at', { ascending: false })
-      if (error) throw error
-      return res.status(200).json({ success: true, data })
+      const { data: dataCerkev, error: errorCerkev } = await supabase.from('rsvps').select('*').order('submitted_at', { ascending: false })
+      const { data: dataZabava, error: errorZabava } = await supabase.from('rsvps_povabljeni').select('*').order('submitted_at', { ascending: false })
+      if (errorCerkev) throw errorCerkev
+      if (errorZabava) throw errorZabava
+      return res.status(200).json({ success: true, dataCerkev: dataCerkev || [], dataZabava: dataZabava || [] })
     }
 
     // fallback local
-    if (!fs.existsSync(dbFile)) return res.status(200).json({ success: true, data: [] })
-    const raw = fs.readFileSync(dbFile, 'utf8')
-    const arr = JSON.parse(raw || '[]')
-    return res.status(200).json({ success: true, data: arr.reverse() })
+    let dataCerkev = []
+    let dataZabava = []
+    if (fs.existsSync(dbFile)) {
+      const raw = fs.readFileSync(dbFile, 'utf8')
+      dataCerkev = JSON.parse(raw || '[]').reverse()
+    }
+    if (fs.existsSync(dbFilePovabljeni)) {
+      const raw = fs.readFileSync(dbFilePovabljeni, 'utf8')
+      dataZabava = JSON.parse(raw || '[]').reverse()
+    }
+    return res.status(200).json({ success: true, dataCerkev, dataZabava })
   } catch (err) {
     console.error(err)
     return res.status(500).json({ error: 'Internal error' })
