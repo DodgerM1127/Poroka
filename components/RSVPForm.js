@@ -46,7 +46,7 @@ export default function RSVPForm({ onSuccess }) {
         <div className="text-sm text-gray-600">Če prihaja več oseb, prosimo izpolnite obrazec posebej za vsakega gosta.</div>
       </div>
       <div>
-        <label className="block text-sm font-medium">Sporoči nama kaj lepega</label>
+        <label className="block text-sm font-medium">Napiši svojo najljubšo pesem oziroma glasbono željo</label>
         <textarea name="message" value={form.message} onChange={handle} className="mt-1 block w-full rounded border px-3 py-2" />
       </div>
       <div>
