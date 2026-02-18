@@ -67,6 +67,12 @@ export default function Povabljeni() {
         <p className="text-gray-600 text-lg leading-relaxed">Če si želiš pomagati se vpiši v <a href="https://docs.google.com/spreadsheets/d/1s5tt8S0iLu9WvMv3C8WelAbdJPP3aeCN2pZeOF8QZmQ/edit?usp=sharing" target="_blank" className="text-teal-600 hover:underline">tabelo</a></p>
       </section>
 
+      {/* Darila Section */}
+      <section id="gifts" className="max-w-6xl mx-auto px-6 py-16">
+        <h3 className="text-3xl font-bold text-teal-600 mb-6">Darila</h3>
+        <p className="text-gray-600 text-lg leading-relaxed">Denar</p>
+      </section>
+
       {/* Foto Galerija */}
       <section id="gallery" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-teal-600 mb-6">Foto galerija</h3>
