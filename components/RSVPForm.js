@@ -39,6 +39,7 @@ export default function RSVPForm({ onSuccess }) {
         <label className="block text-sm font-medium">Prideš?</label>
         <select name="attending" value={form.attending} onChange={handle} className="mt-1 block w-full rounded border px-3 py-2">
           <option value="yes">Da</option>
+          <option value="maybe">Mogoče</option>
           <option value="no">Ne</option>
         </select>
       </div>
