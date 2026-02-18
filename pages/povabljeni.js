@@ -62,19 +62,19 @@ export default function Povabljeni() {
 
       {/* Ali želiš pomagati Section */}
       <section id="help" className="max-w-6xl mx-auto px-6 py-16">
-        <h3 className="text-3xl font-bold text-teal-600 mb-6">Ali želiš pomagati?</h3>
+        <h3 className="text-3xl font-bold text-teal-600 mb-6 text-center">Ali želiš pomagati?</h3>
         <p className="text-gray-600 text-lg leading-relaxed">Če si želiš pomagati se vpiši v <a href="https://docs.google.com/spreadsheets/d/1s5tt8S0iLu9WvMv3C8WelAbdJPP3aeCN2pZeOF8QZmQ/edit?usp=sharing" target="_blank" className="text-teal-600 hover:underline">tabelo</a></p>
       </section>
 
       {/* Darila Section */}
       <section id="gifts" className="max-w-6xl mx-auto px-6 py-16">
-        <h3 className="text-3xl font-bold text-teal-600 mb-6">Darila</h3>
+        <h3 className="text-3xl font-bold text-teal-600 mb-6 text-center">Darila</h3>
         <p className="text-gray-600 text-lg leading-relaxed">Denar</p>
       </section>
 
       {/* Slike Section */}
       <section id="photos" className="max-w-6xl mx-auto px-6 py-16">
-        <h3 className="text-3xl font-bold text-teal-600 mb-6">Slike</h3>
+        <h3 className="text-3xl font-bold text-teal-600 mb-6 text-center">Slike</h3>
         <p className="text-gray-600 text-lg leading-relaxed"><a href="https://drive.google.com/drive/folders/1J3QsGeoaQKXYr6_6LQZyqArtC0Zg3Z3l?usp=sharing" target="_blank" className="text-teal-600 hover:underline">Naloži</a> svoje slike od poroke, da jih bomo lahko vsi videli.</p>
       </section>
 
