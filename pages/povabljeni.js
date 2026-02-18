@@ -24,6 +24,13 @@ export default function Povabljeni() {
         </div>
       </section>
 
+      {/* Intro Text */}
+      <section className="max-w-3xl mx-auto px-6 py-12 text-center">
+        <h2 className="text-3xl font-serif font-bold mb-4">Dragi prijatelji in domači!</h2>
+        <p className="text-lg text-gray-700 mb-4 leading-relaxed">Po številnih prehojenih kilometrih, preskakanih travnikih, molitvah, prevoženih kilometrih, preplesanih in preklepetanih večerih sva spoznala, da je to to in da želiva za skoz hodit z ramo ob rami.</p>
+        <p className="text-lg text-gray-700 mb-4 leading-relaxed">Če si odprl tole spletno stran, si verjetno v najinih srcih pustil poseben pečat, zato te vabiva, da se nama pridružiš na najini poroki.</p>
+      </section>
+
       {/* RSVP Button */}
       <section className="py-8 text-center">
         <Link href="/rsvp_povabljeni">
