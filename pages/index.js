@@ -34,7 +34,7 @@ export default function Home() {
 
       {/* Program Poroke (Schedule) */}
       <section id="schedule" className="max-w-6xl mx-auto px-6 py-16">
-        <h3 className="text-3xl font-bold text-teal-600 mb-6">Program poroke</h3>
+        <h3 className="text-3xl font-bold text-teal-600 mb-6">Časovnica</h3>
         <ul className="space-y-4 text-gray-700">
           <li className="flex items-start gap-4"><span className="font-mono text-teal-600">14:00</span> <span>Poroka — obred v <a href="https://www.google.com/maps/place/Cerkev+Marije+Pomo%C4%8Dnice+Rakovnik/@46.0371188,14.5260094,18.85z/data=!4m6!3m5!1s0x47652dbb6745fa4b:0x39e09d01345d1f99!8m2!3d46.0374167!4d14.5250851!16s%2Fg%2F11fj1bqd1r?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" className="text-teal-600 hover:underline">Župnijski cerkevi Marije Pomočnice</a> </span></li>
           <li className="flex items-start gap-4"><span className="font-mono text-teal-600">16:00</span> <span>Slikanje — pred cerkvijo</span></li>
