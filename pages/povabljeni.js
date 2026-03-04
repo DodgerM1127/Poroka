@@ -40,7 +40,7 @@ export default function Povabljeni() {
         <div className="max-w-6xl mx-auto px-6 py-16">
           <h3 className="text-3xl font-bold mb-6 text-center">Časovnica</h3>
           <ul className="space-y-8 mx-auto max-w-3xl">
-            <li className="flex items-center gap-6">
+            <li className="flex items-center justify-center gap-6">
               <img src="/icons/church.svg" alt="cerkev" className="w-20 h-20 flex-shrink-0" />
               <div className="flex flex-col gap-2">
                 <div className="text-2xl font-bold text-white">Poroka</div>
