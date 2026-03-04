@@ -109,13 +109,13 @@ export default function Povabljeni() {
       {/* Darila Section */}
       <section id="gifts" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Darila</h3>
-        <p className="text-gray-600 text-lg leading-relaxed">Denar</p>
+        <p className="text-gray-600 text-lg leading-relaxed text-center">Denar</p>
       </section>
 
       {/* Slike Section */}
       <section id="photos" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Slike</h3>
-        <p className="text-gray-600 text-lg leading-relaxed"><a href="https://drive.google.com/drive/folders/1J3QsGeoaQKXYr6_6LQZyqArtC0Zg3Z3l?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">Tukaj</a> lahko naložiš in pogledaš vse slike iz poroke, tudi midva jih bova naložila po poroki.</p>
+        <p className="text-gray-600 text-lg leading-relaxed text-center"><a href="https://drive.google.com/drive/folders/1J3QsGeoaQKXYr6_6LQZyqArtC0Zg3Z3l?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">Tukaj</a> lahko naložiš in pogledaš vse slike iz poroke, tudi midva jih bova naložila po poroki.</p>
       </section>
 
       {/* Foto Galerija */}
