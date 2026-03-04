@@ -15,7 +15,7 @@ export default function Povabljeni() {
           <h2 className="text-4xl font-serif font-bold mb-4">29. avgusta 2026</h2>
           
           <p className="text-lg leading-relaxed">
-            Dobrodošli na najini poročni spletni strani! Vesela sva, da bova ta poseben dan delila z vami. Tukaj najdete vse informacije o poroki — urnik, fotografije in še več. Komaj čakava, da z vami praznujemo v Ljubljani!
+            Dobrodošli na najini poročni spletni strani! Vesela sva, da bova ta poseben dan delila z vami. Tukaj najdete vse informacije o poroki — urnik, fotografije in še več. Komaj čakava, da z vami praznujeva v Ljubljani!
           </p>
         </div>
       </section>
