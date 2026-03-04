@@ -12,7 +12,7 @@ export default function Povabljeni() {
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative text-center text-white z-10 px-6 max-w-2xl">
           <h1 className="text-5xl font-serif font-bold mb-4">Gaja & Matej</h1>
-          <h2 className="text-4xl font-serif font-bold mb-4 mt-3">29. avgusta 2026</h2>
+          <h2 className="text-4xl font-serif font-bold mb-4 mt-6">29. avgusta 2026</h2>
           
           <p className="text-lg leading-relaxed mt-12">
             Dobrodošli na najini poročni spletni strani! Vesela sva, da bova ta poseben dan delila z vami. Tukaj najdete vse informacije o poroki — urnik, fotografije in še več. Komaj čakava, da z vami praznujeva v Ljubljani!
@@ -39,7 +39,7 @@ export default function Povabljeni() {
       <section id="schedule" className="w-full bg-[#b17253] text-white">
         <div className="max-w-6xl mx-auto px-6 py-16">
           <h3 className="text-3xl font-bold mb-6 text-center">Časovnica</h3>
-          <div className="mx-auto max-w-5xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 justify-items-center">
+          <div className="mx-auto max-w-3xl flex flex-col items-center gap-8">
             <div className="flex flex-col items-center text-center">
               <img src="/icons/church.svg" alt="cerkev" className="w-20 h-20" />
               <div className="text-2xl font-bold text-white mt-4">Poroka</div>
