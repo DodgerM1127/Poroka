@@ -12,9 +12,9 @@ export default function Povabljeni() {
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative text-center text-white z-10 px-6 max-w-2xl">
           <h1 className="text-5xl font-serif font-bold mb-4">Gaja & Matej</h1>
-          <h1 className="text-5xl font-serif font-bold mb-4"></h1>
+          <h1 className="text-5xl font-serif font-bold mb-4"> </h1>
           <h1 className="text-5xl font-serif font-bold mb-4">29. avgusta 2026</h1>
-          <h1 className="text-5xl font-serif font-bold mb-4"></h1>
+          <h1 className="text-5xl font-serif font-bold mb-4"> </h1>
           
           <p className="text-lg leading-relaxed">
             Dobrodošli na naši poročni spletni strani! Vesela sva, da bova ta poseben dan delila z vami. Tukaj najdete vse informacije o poroki — urnik, fotografije in še več. Komaj čakava, da z vami praznujemo v Ljubljani!
