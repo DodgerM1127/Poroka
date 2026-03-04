@@ -39,7 +39,7 @@ export default function Povabljeni() {
       <section id="schedule" className="w-full bg-[#b17253] text-white">
         <div className="max-w-6xl mx-auto px-6 py-16">
           <h3 className="text-3xl font-bold mb-6 text-center">Časovnica</h3>
-          <div className="mx-auto max-w-md">
+          <div className="flex justify-center">
             <div className="grid grid-cols-2 gap-6 items-start">
               {/* Poroka */}
               <img src="/icons/church.svg" alt="cerkev" className="w-20 h-20" />
