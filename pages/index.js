@@ -27,7 +27,7 @@ export default function Home() {
       {/* RSVP Button */}
       <section className="py-8 text-center">
         <Link href="/rsvp">
-          <a className="inline-block px-6 py-3 rounded bg-teal-600 text-white font-semibold hover:bg-teal-700" onClick={() => console.log('Navigate to /rsvp (cta)')}>POTRDI UDELEŽBO</a>
+          <a className="inline-block px-6 py-3 rounded bg-[#b17253] text-white font-semibold hover:bg-[#944b33]" onClick={() => console.log('Navigate to /rsvp (cta)')}>POTRDI UDELEŽBO</a>
         </Link>
       </section>
 
@@ -36,19 +36,19 @@ export default function Home() {
       <section id="schedule" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold" style={{color: '#b17253'}} mb-6>Časovnica</h3>
         <ul className="space-y-4 text-gray-700">
-          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">14:00</span> <span>Poroka — obred v <a href="https://www.google.com/maps/place/Cerkev+Marije+Pomo%C4%8Dnice+Rakovnik/@46.0371188,14.5260094,18.85z/data=!4m6!3m5!1s0x47652dbb6745fa4b:0x39e09d01345d1f99!8m2!3d46.0374167!4d14.5250851!16s%2Fg%2F11fj1bqd1r?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" className="text-teal-600 hover:underline">Župnijski cerkevi Marije Pomočnice</a> </span></li>
-          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">16:00</span> <span>Slikanje — pred cerkvijo</span></li>
-          <li className="flex items-start gap-4"><span className="font-mono text-teal-600">16:15</span> <span>Zakuska — <a href="https://www.google.com/maps/place/Dija%C5%A1ki+dom+Janeza+Boska/@46.0373266,14.5255353,19.55z/data=!4m6!3m5!1s0x47652d22f6689f6d:0xcbddcd1aaef38011!8m2!3d46.0370064!4d14.525536!16s%2Fg%2F11j81t443l?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="text-teal-600 hover:underline" target="_blank">sledi drugim</a></span></li>
+          <li className="flex items-start gap-4"><span className="font-mono text-[#b17253]">14:00</span> <span>Poroka — obred v <a href="https://www.google.com/maps/place/Cerkev+Marije+Pomo%C4%8Dnice+Rakovnik/@46.0371188,14.5260094,18.85z/data=!4m6!3m5!1s0x47652dbb6745fa4b:0x39e09d01345d1f99!8m2!3d46.0374167!4d14.5250851!16s%2Fg%2F11fj1bqd1r?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" className="text-[#b17253] hover:underline">Župnijski cerkevi Marije Pomočnice</a> </span></li>
+          <li className="flex items-start gap-4"><span className="font-mono text-[#b17253]">16:00</span> <span>Slikanje — pred cerkvijo</span></li>
+          <li className="flex items-start gap-4"><span className="font-mono text-[#b17253]">16:15</span> <span>Zakuska — <a href="https://www.google.com/maps/place/Dija%C5%A1ki+dom+Janeza+Boska/@46.0373266,14.5255353,19.55z/data=!4m6!3m5!1s0x47652d22f6689f6d:0xcbddcd1aaef38011!8m2!3d46.0370064!4d14.525536!16s%2Fg%2F11j81t443l?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="text-[#b17253] hover:underline" target="_blank">sledi drugim</a></span></li>
         </ul>
       </section>
 
       {/* About Najine želje Section */}
       <section id="wishes" className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
-          <h3 className="text-3xl font-bold text-teal-600 mb-6">Najine želje</h3>
+          <h3 className="text-3xl font-bold text-[#b17253] mb-6">Najine želje</h3>
           <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
             <p>Darila - Denar</p>
-            <p>Dresscode: <a href="https://www.color-hex.com/color-palette/1223" target="_blank" className="text-teal-600 hover:underline">pastel</a></p>
+            <p>Dresscode: <a href="https://www.color-hex.com/color-palette/1223" target="_blank" className="text-[#b17253] hover:underline">pastel</a></p>
             <p>Prepovedane barve oblek: Bela, Črna, Rdeča</p>
             <p>Brez kraje šopka</p>
             <p>Ni maškar</p>
@@ -61,7 +61,7 @@ export default function Home() {
 
       {/* Foto Galerija */}
       <section id="gallery" className="max-w-6xl mx-auto px-6 py-16">
-        <h3 className="text-3xl font-bold text-teal-600 mb-6">Foto galerija</h3>
+        <h3 className="text-3xl font-bold text-[#b17253] mb-6">Foto galerija</h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {[
             '/images/ANA09113.jpg',

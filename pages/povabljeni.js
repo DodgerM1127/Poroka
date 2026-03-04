@@ -33,7 +33,7 @@ export default function Povabljeni() {
       {/* RSVP Button */}
       <section className="py-8 text-center">
         <Link href="/rsvp_povabljeni">
-          <a className="inline-block px-6 py-3 rounded bg-[#b17253] text-white font-semibold hover:bg-teal-700" onClick={() => console.log('Navigate to /rsvp_povabljeni (cta)')}>POTRDI UDELEŽBO</a>
+          <a className="inline-block px-6 py-3 rounded bg-[#b17253] text-white font-semibold hover:bg-[#944b33]" onClick={() => console.log('Navigate to /rsvp_povabljeni (cta)')}>POTRDI UDELEŽBO</a>
         </Link>
       </section>
 
@@ -90,9 +90,9 @@ export default function Povabljeni() {
       {/* Dresscode in bonton Section */}
       <section id="wishes" className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
-          <h3 className="text-3xl font-bold text-teal-600 mb-6">Dresscode in bonton</h3>
+          <h3 className="text-3xl font-bold text-[#b17253] mb-6">Dresscode in bonton</h3>
           <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
-            <p>Dresscode: <a href="https://www.color-hex.com/color-palette/1223" target="_blank" className="text-teal-600 hover:underline">pastel</a></p>
+            <p>Dresscode: <a href="https://www.color-hex.com/color-palette/1223" target="_blank" className="text-[#b17253] hover:underline">pastel</a></p>
             <p>Prepovedane barve oblek: Bela, Črna, Rdeča</p>
             <p>Brez kraje šopka</p>
             <p>Ni maškar</p>
@@ -105,20 +105,20 @@ export default function Povabljeni() {
 
       {/* Ali želiš pomagati Section */}
       <section id="help" className="max-w-6xl mx-auto px-6 py-16">
-        <h3 className="text-3xl font-bold text-teal-600 mb-6 text-center">Ali želiš pomagati?</h3>
-        <p className="text-gray-600 text-lg leading-relaxed">Če si želiš pomagati se vpiši v <a href="https://docs.google.com/spreadsheets/d/1s5tt8S0iLu9WvMv3C8WelAbdJPP3aeCN2pZeOF8QZmQ/edit?usp=sharing" target="_blank" className="text-teal-600 hover:underline">tabelo</a></p>
+        <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Ali želiš pomagati?</h3>
+        <p className="text-gray-600 text-lg leading-relaxed">Če si želiš pomagati se vpiši v <a href="https://docs.google.com/spreadsheets/d/1s5tt8S0iLu9WvMv3C8WelAbdJPP3aeCN2pZeOF8QZmQ/edit?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">tabelo</a></p>
       </section>
 
       {/* Darila Section */}
       <section id="gifts" className="max-w-6xl mx-auto px-6 py-16">
-        <h3 className="text-3xl font-bold text-teal-600 mb-6 text-center">Darila</h3>
+        <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Darila</h3>
         <p className="text-gray-600 text-lg leading-relaxed">Denar</p>
       </section>
 
       {/* Slike Section */}
       <section id="photos" className="max-w-6xl mx-auto px-6 py-16">
-        <h3 className="text-3xl font-bold text-teal-600 mb-6 text-center">Slike</h3>
-        <p className="text-gray-600 text-lg leading-relaxed"><a href="https://drive.google.com/drive/folders/1J3QsGeoaQKXYr6_6LQZyqArtC0Zg3Z3l?usp=sharing" target="_blank" className="text-teal-600 hover:underline">Tukaj</a> lahko naložiš in pogledaš vse slike iz poroke, tudi midva jih bova naložila po poroki.</p>
+        <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Slike</h3>
+        <p className="text-gray-600 text-lg leading-relaxed"><a href="https://drive.google.com/drive/folders/1J3QsGeoaQKXYr6_6LQZyqArtC0Zg3Z3l?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">Tukaj</a> lahko naložiš in pogledaš vse slike iz poroke, tudi midva jih bova naložila po poroki.</p>
       </section>
 
       {/* Foto Galerija */}
