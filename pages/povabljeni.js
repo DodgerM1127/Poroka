@@ -39,42 +39,42 @@ export default function Povabljeni() {
       <section id="schedule" className="w-full bg-[#b17253] text-white">
         <div className="max-w-6xl mx-auto px-6 py-16">
           <h3 className="text-3xl font-bold mb-6 text-center">Časovnica</h3>
-          <ul className="space-y-8 mx-auto max-w-3xl">
-            <li className="flex items-start gap-6">
+          <ul className="space-y-8 mx-auto max-w-3xl flex flex-col items-center">
+            <li className="flex items-center gap-6 justify-center">
               <img src="/icons/church.svg" alt="cerkev" className="w-20 h-20 flex-shrink-0" />
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2 items-center text-center">
                 <div className="text-2xl font-bold text-white">Poroka</div>
                 <div className="text-lg text-white">14:00</div>
                 <div className="text-lg text-white">obred v <a href="https://www.google.com/maps/place/Cerkev+Marije+Pomo%C4%8Dnice+Rakovnik/@46.0371188,14.5260094,18.85z/data=!4m6!3m5!1s0x47652dbb6745fa4b:0x39e09d01345d1f99!8m2!3d46.0374167!4d14.5250851!16s%2Fg%2F11fj1bqd1r?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" className="underline text-white">Župnijski cerkevi Marije Pomočnice</a></div>
               </div>
             </li>
-            <li className="flex items-start gap-6">
+            <li className="flex items-center gap-6 justify-center">
               <img src="/icons/camera.svg" alt="foto" className="w-20 h-20 flex-shrink-0" />
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2 items-center text-center">
                 <div className="text-2xl font-bold text-white">Slikanje</div>
                 <div className="text-lg text-white">16:00</div>
                 <div className="text-lg text-white">pred cerkvijo</div>
               </div>
             </li>
-            <li className="flex items-start gap-6">
+            <li className="flex items-center gap-6 justify-center">
               <img src="/icons/food.svg" alt="hrana" className="w-20 h-20 flex-shrink-0" />
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2 items-center text-center">
                 <div className="text-2xl font-bold text-white">Zakuska</div>
                 <div className="text-lg text-white">16:15</div>
                 <div className="text-lg text-white"><a href="https://www.google.com/maps/place/Dija%C5%A1ki+dom+Janeza+Boska/@46.0373266,14.5255353,19.55z/data=!4m6!3m5!1s0x47652d22f6689f6d:0xcbddcd1aaef38011!8m2!3d46.0370064!4d14.525536!16s%2Fg%2F11j81t443l?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="underline text-white" target="_blank">Majcnov dom</a></div>
               </div>
             </li>
-            <li className="flex items-start gap-6">
+            <li className="flex items-center gap-6 justify-center">
               <img src="/icons/car.svg" alt="prevoz" className="w-20 h-20 flex-shrink-0" />
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2 items-center text-center">
                 <div className="text-2xl font-bold text-white">Odhod v gostilno</div>
                 <div className="text-lg text-white">17:30</div>
                 <div className="text-lg text-white"><a href="https://www.google.com/maps/place/Gostilna+Javornik+Goran+Pevec+S.P./@45.9609662,15.0885783,17z/data=!3m1!4b1!4m6!3m5!1s0x4765056c39f292f9:0xcad74ed40d7cb850!8m2!3d45.9609662!4d15.0911532!16s%2Fg%2F1tgz483q?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="underline text-white" target="_blank">Javornik</a></div>
               </div>
             </li>
-            <li className="flex items-start gap-6">
+            <li className="flex items-center gap-6 justify-center">
               <img src="/icons/music.svg" alt="glasba" className="w-20 h-20 flex-shrink-0" />
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2 items-center text-center">
                 <div className="text-2xl font-bold text-white">Zabava</div>
                 <div className="text-lg text-white">18:30</div>
                 <div className="text-lg text-white">Okvirni začetek</div>
@@ -103,7 +103,7 @@ export default function Povabljeni() {
       {/* Ali želiš pomagati Section */}
       <section id="help" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Ali želiš pomagati?</h3>
-        <p className="text-gray-600 text-lg leading-relaxed text-center">Ker sva že večkrat slišala, naj ne bova trmasta in vsega delava sama, iščeva, kakšnega pekovskega mojstra ali vajenca, ki bi bil pripravljen speči, kakšno dobroto. Če si želiš pomagati se vpiši v <a href="https://docs.google.com/spreadsheets/d/1s5tt8S0iLu9WvMv3C8WelAbdJPP3aeCN2pZeOF8QZmQ/edit?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">tabelo</a></p>
+        <p className="text-gray-600 text-lg leading-relaxed text-center">Ker sva že večkrat slišala, naj ne bova trmasta in vsega delava sama, iščeva, kakšnega pekovskega mojstra ali vajenca, ki bi bil pripravljen speči, kakšno dobroto. Če si želiš pomagati se vpiši v <a href="https://docs.google.com/spreadsheets/d/1s5tt8S0iLu9WvMv3C8WelAbdJPP3aeCN2pZeOF8QZmQ/edit?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">tabelo</a>.</p>
       </section>
 
       {/* Darila Section */}
