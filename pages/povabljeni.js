@@ -13,7 +13,7 @@ export default function Povabljeni() {
         <div className="relative text-center text-white z-10 px-6 max-w-2xl">
           <h1 className="text-5xl font-serif font-bold mb-4">Gaja & Matej</h1>
           <h1 className="text-5xl font-serif font-bold mb-4"> </h1>
-          <h1 className="text-5xl font-serif font-bold mb-4">29. avgusta 2026</h1>
+          <h3 className="text-5xl font-serif font-bold mb-4">29. avgusta 2026</h3>
           <h1 className="text-5xl font-serif font-bold mb-4"> </h1>
           
           <p className="text-lg leading-relaxed">
@@ -105,7 +105,7 @@ export default function Povabljeni() {
       {/* Ali želiš pomagati Section */}
       <section id="help" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Ali želiš pomagati?</h3>
-        <p className="text-gray-600 text-lg leading-relaxed">Če si želiš pomagati se vpiši v <a href="https://docs.google.com/spreadsheets/d/1s5tt8S0iLu9WvMv3C8WelAbdJPP3aeCN2pZeOF8QZmQ/edit?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">tabelo</a></p>
+        <p className="text-gray-600 text-lg leading-relaxed">Ker sva že večkrat slišala, naj ne bova trmasta in vsega delava sama, iščeva, kakšnega pekovskega mojstra ali vajenca, ki bi bil pripravljen speči, kakšno dobroto. Če si želiš pomagati se vpiši v <a href="https://docs.google.com/spreadsheets/d/1s5tt8S0iLu9WvMv3C8WelAbdJPP3aeCN2pZeOF8QZmQ/edit?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">tabelo</a></p>
       </section>
 
       {/* Darila Section */}
