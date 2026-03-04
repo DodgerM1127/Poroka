@@ -33,7 +33,7 @@ export default function Povabljeni() {
       {/* RSVP Button */}
       <section className="py-8 text-center">
         <Link href="/rsvp_povabljeni">
-          <a className="inline-block px-6 py-3 rounded bg-teal-600 text-white font-semibold hover:bg-teal-700" onClick={() => console.log('Navigate to /rsvp_povabljeni (cta)')}>POTRDI UDELEŽBO</a>
+          <a className="inline-block px-6 py-3 rounded bg-[#b17253] text-white font-semibold hover:bg-teal-700" onClick={() => console.log('Navigate to /rsvp_povabljeni (cta)')}>POTRDI UDELEŽBO</a>
         </Link>
       </section>
 
