@@ -99,7 +99,7 @@ export default function Povabljeni() {
       {/* Darila Section */}
       <section id="gifts" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Darila</h3>
-        <p className="text-gray-600 text-lg leading-relaxed text-center">Največje darilo nama bo vaša družba, a če naju želite razveseliti še s čim, bova najbolj hvaležna za prispevek v sklad za začetek najine skupne življenjske poti. Tako nama boste pomagali zgraditi temelje za najino prihodnost.</p>
+        <p className="text-gray-600 text-lg leading-relaxed text-center">Največje darilo nama bo vaša družba, a če naju želite razveseliti še s čim, bova najbolj hvaležna za prispevek v sklad za začetek najine skupne življenjske poti.</p>
       </section>
 
       {/* Slike Section */}
