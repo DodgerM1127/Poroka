@@ -48,26 +48,26 @@ export default function Povabljeni() {
             </div>
             <div className="flex flex-col items-center text-center">
               <img src="/icons/camera.svg" alt="foto" className="w-20 h-20" />
-              <div className="text-2xl font-bold text-white mt-4">Slikanje</div>
+              <div className="text-2xl font-bold text-white mt-4">Skupinsko slikanje</div>
               <div className="text-lg text-white">16:00</div>
               <div className="text-lg text-white">pred cerkvijo</div>
             </div>
             <div className="flex flex-col items-center text-center">
               <img src="/icons/food.svg" alt="hrana" className="w-20 h-20" />
               <div className="text-2xl font-bold text-white mt-4">Zakuska</div>
-              <div className="text-lg text-white">16:15</div>
+              <div className="text-lg text-white">16:05</div>
               <div className="text-lg text-white"><a href="https://www.google.com/maps/place/Dija%C5%A1ki+dom+Janeza+Boska/@46.0373266,14.5255353,19.55z/data=!4m6!3m5!1s0x47652d22f6689f6d:0xcbddcd1aaef38011!8m2!3d46.0370064!4d14.525536!16s%2Fg%2F11j81t443l?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="underline text-white" target="_blank">Majcnov dom</a></div>
             </div>
             <div className="flex flex-col items-center text-center">
               <img src="/icons/car.svg" alt="prevoz" className="w-20 h-20" />
               <div className="text-2xl font-bold text-white mt-4">Odhod v gostilno</div>
-              <div className="text-lg text-white">17:30</div>
+              <div className="text-lg text-white">17:00</div>
               <div className="text-lg text-white"><a href="https://www.google.com/maps/place/Gostilna+Javornik+Goran+Pevec+S.P./@45.9609662,15.0885783,17z/data=!3m1!4b1!4m6!3m5!1s0x4765056c39f292f9:0xcad74ed40d7cb850!8m2!3d45.9609662!4d15.0911532!16s%2Fg%2F1tgz483q?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="underline text-white" target="_blank">Javornik</a></div>
             </div>
             <div className="flex flex-col items-center text-center">
               <img src="/icons/music.svg" alt="glasba" className="w-20 h-20" />
               <div className="text-2xl font-bold text-white mt-4">Zabava</div>
-              <div className="text-lg text-white">18:30</div>
+              <div className="text-lg text-white">18:00</div>
               <div className="text-lg text-white">Okvirni začetek</div>
             </div>
           </div>
