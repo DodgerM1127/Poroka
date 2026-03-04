@@ -12,7 +12,9 @@ export default function Povabljeni() {
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative text-center text-white z-10 px-6 max-w-2xl">
           <h1 className="text-5xl font-serif font-bold mb-4">Gaja & Matej</h1>
-          <h2 className="text-5xl font-serif font-bold mb-4">29. 8.</h2>
+          <h1 className="text-5xl font-serif font-bold mb-4"></h1>
+          <h1 className="text-5xl font-serif font-bold mb-4">29. avgusta 2026</h1>
+          <h1 className="text-5xl font-serif font-bold mb-4"></h1>
           {/* Countdown moved directly under the heading */}
           <div className="mb-6">
             <Countdown targetDate={target} />
@@ -25,7 +27,7 @@ export default function Povabljeni() {
 
       {/* Intro Text */}
       <section className="max-w-3xl mx-auto px-6 py-12 text-center">
-        <h2 className="text-3xl font-serif font-bold mb-4">Dragi prijatelji in domači!</h2>
+        <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Dragi prijatelji in domači!</h3>
         <p className="text-lg text-gray-700 mb-4 leading-relaxed">Po številnih prehojenih kilometrih, preskakanih travnikih, molitvah, prevoženih kilometrih, preplesanih in preklepetanih večerih sva spoznala, da je to to in da želiva za skoz hodit z ramo ob rami.</p>
         <p className="text-lg text-gray-700 mb-4 leading-relaxed">Če si odprl tole spletno stran, si verjetno v najinih srcih pustil poseben pečat, zato te vabiva, da se nama pridružiš na najini poroki.</p>
       </section>
