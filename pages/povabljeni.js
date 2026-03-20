@@ -19,7 +19,7 @@ export default function Povabljeni() {
           </p>
 
           {/* Countdown moved directly under the heading */}
-          <div className="mb-6">
+          <div className="mt-8 mb-6">
             <Countdown targetDate={target} />
           </div>
         </div>
@@ -27,7 +27,7 @@ export default function Povabljeni() {
 
       {/* Intro Text */}
       <section className="max-w-3xl mx-auto px-6 py-12 text-center">
-        <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Dragi prijatelji in domači!</h3>
+        <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Dragi prijatelji!</h3>
         <p className="text-lg text-gray-700 mb-4 leading-relaxed">Po številnih prehojenih kilometrih, preskakanih travnikih, molitvah, prevoženih kilometrih, preplesanih in preklepetanih večerih sva spoznala, da je to to in da želiva za skoz hodit z ramo ob rami.</p>
         <p className="text-lg text-gray-700 mb-4 leading-relaxed">Če si odprl tole spletno stran, si verjetno v najinih srcih pustil poseben pečat, zato te vabiva, da se nama pridružiš na najini poroki.</p>
       </section>
