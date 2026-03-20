@@ -17,6 +17,11 @@ export default function Povabljeni() {
           <p className="text-lg leading-relaxed mt-12">
             Dobrodošli na najini poročni spletni strani! Vesela sva, da bova ta poseben dan delila z vami. Tukaj najdete vse informacije o poroki — urnik, fotografije in še več. Komaj čakava, da z vami praznujeva v Ljubljani!
           </p>
+
+          {/* Countdown moved directly under the heading */}
+          <div className="mb-6">
+            <Countdown targetDate={target} />
+          </div>
         </div>
       </section>
 
