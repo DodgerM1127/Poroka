@@ -7,7 +7,7 @@ export default function Povabljeni() {
     <div className="min-h-screen flex flex-col">
 
       {/* Hero Section */}
-      <section className="relative h-screen bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: "url('/images/1.jpg')", backgroundPosition: 'center', backgroundSize: 'cover' }}>
+      <section className="relative h-screen bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: "url('/images/slika 2.jpg')", backgroundPosition: 'center', backgroundSize: 'cover' }}>
         {/* Use /public/images/1.jpg as hero background */}
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative text-center text-white z-10 px-6 max-w-2xl">
@@ -93,7 +93,7 @@ export default function Povabljeni() {
           </div>
         </div>
         <div>
-          <img src="/images/2.jpg" alt="O najini zgodbi" className="w-full h-64 object-cover rounded" />
+          <img src="/images/slika 1.jpg" alt="O najini zgodbi" className="w-full h-64 object-cover rounded" />
         </div>
       </section>
 
