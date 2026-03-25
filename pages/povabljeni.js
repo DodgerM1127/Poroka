@@ -27,7 +27,7 @@ export default function Povabljeni() {
       {/* Intro Text */}
       <section className="max-w-3xl mx-auto px-6 py-12 text-center">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Dragi prijatelji!</h3>
-        <p className="text-lg text-gray-700 mb-4 leading-relaxed">Najin dan ne bo isti brez tebe. Da bova lažje pripravila vse potrebno za nepozaben večer, naju prosim razveseli s potrditvijo udeležbe čim prej, najkasneje pa do 29. 6. Se vidimo kmalu!</p>
+        <p className="text-lg text-gray-700 mb-4 leading-relaxed">Najin dan ne bo isti brez tebe. Da bova lažje pripravila vse potrebno za najin dan, nama prosim pomagaj in se oznaci ce prides cim prej, najkasneje pa do 29. 6. Se vidimo kmalu!</p>
       </section>
 
       {/* RSVP Button */}
