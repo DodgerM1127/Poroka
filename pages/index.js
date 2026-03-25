@@ -1,67 +1,115 @@
 import Link from 'next/link'
 import Countdown from '../components/Countdown'
 
-export default function Home() {
+export default function Povabljeni() {
   const target = '2026-08-29T14:00:00+01:00'
   return (
     <div className="min-h-screen flex flex-col">
 
       {/* Hero Section */}
-      <section className="relative h-screen bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: "url('/images/1.jpg')", backgroundPosition: 'center', backgroundSize: 'cover' }}>
+      <section className="relative h-screen bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: "url('/images/slika 2.jpg')", backgroundPosition: 'center', backgroundSize: 'cover' }}>
         {/* Use /public/images/1.jpg as hero background */}
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative text-center text-white z-10 px-6 max-w-2xl">
           <h1 className="text-5xl font-serif font-bold mb-4">Gaja & Matej</h1>
-          <h2 className="text-5xl font-serif font-bold mb-4">29. avgusta 2026</h2>
-          <h2 className="text-5xl font-serif font-bold mb-4">Proslavljava najino ljubezen</h2>
+          <h2 className="text-4xl font-serif font-bold mb-4 mt-6">29. avgusta 2026</h2>
+          
+          <p className="text-lg leading-relaxed mt-12">
+            Če si odprl tole spletno stran, si verjetno v najinih srcih pustil poseben pečat, zato te vabiva, da se nama pridružiš na najini poroki.</p>
+
           {/* Countdown moved directly under the heading */}
-          <div className="mb-6">
+          <div className="mt-8 mb-6">
             <Countdown targetDate={target} />
           </div>
-          <p className="text-lg leading-relaxed">
-            Dobrodošli na naši poročni spletni strani! Vesela sva, da bova ta poseben dan delila z vami. Tukaj najdete vse informacije o poroki — urnik, fotografije in še več. Komaj čakava, da z vami praznujemo v Ljubljani!
-          </p>
         </div>
+      </section>
+
+      {/* Intro Text */}
+      <section className="max-w-3xl mx-auto px-6 py-12 text-center">
+        <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Dragi prijatelji!</h3>
+        <p className="text-lg text-gray-700 mb-4 leading-relaxed">Najin dan ne bo isti brez tebe. Da bova lažje pripravila vse potrebno za najin dan, nama prosim pomagaj in se oznaci ce prides cim prej, najkasneje pa do 29. 6. Se vidimo kmalu!</p>
       </section>
 
       {/* RSVP Button */}
       <section className="py-8 text-center">
-        <Link href="/rsvp">
-          <a className="inline-block px-6 py-3 rounded bg-[#b17253] text-white font-semibold hover:bg-[#944b33]" onClick={() => console.log('Navigate to /rsvp (cta)')}>POTRDI UDELEŽBO</a>
+        <Link href="/rsvp_povabljeni">
+          <a className="inline-block px-6 py-3 rounded bg-[#b17253] text-white font-semibold hover:bg-[#944b33]" onClick={() => console.log('Navigate to /rsvp_povabljeni (cta)')}>POTRDI UDELEŽBO</a>
         </Link>
       </section>
 
 
-      {/* Program Poroke (Schedule) */}
-      <section id="schedule" className="max-w-6xl mx-auto px-6 py-16">
-        <h3 className="text-3xl font-bold" style={{color: '#b17253'}} mb-6>Časovnica</h3>
-        <ul className="space-y-4 text-gray-700">
-          <li className="flex items-start gap-4"><span className="font-mono text-[#b17253]">14:00</span> <span>Poroka — obred v <a href="https://www.google.com/maps/place/Cerkev+Marije+Pomo%C4%8Dnice+Rakovnik/@46.0371188,14.5260094,18.85z/data=!4m6!3m5!1s0x47652dbb6745fa4b:0x39e09d01345d1f99!8m2!3d46.0374167!4d14.5250851!16s%2Fg%2F11fj1bqd1r?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" className="text-[#b17253] hover:underline">Župnijski cerkevi Marije Pomočnice</a> </span></li>
-          <li className="flex items-start gap-4"><span className="font-mono text-[#b17253]">16:00</span> <span>Slikanje — pred cerkvijo</span></li>
-          <li className="flex items-start gap-4"><span className="font-mono text-[#b17253]">16:15</span> <span>Zakuska — <a href="https://www.google.com/maps/place/Dija%C5%A1ki+dom+Janeza+Boska/@46.0373266,14.5255353,19.55z/data=!4m6!3m5!1s0x47652d22f6689f6d:0xcbddcd1aaef38011!8m2!3d46.0370064!4d14.525536!16s%2Fg%2F11j81t443l?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="text-[#b17253] hover:underline" target="_blank">sledi drugim</a></span></li>
-        </ul>
+      {/* Program Poroke (Schedule) - full width background */}
+      <section id="schedule" className="w-full bg-[#b17253] text-white">
+        <div className="max-w-6xl mx-auto px-6 py-16">
+          <h3 className="text-3xl font-bold mb-6 text-center">Časovnica</h3>
+          <div className="flex justify-center">
+            <div className="grid grid-cols-2 gap-6 items-start">
+              {/* Poroka */}
+              <div className="flex justify-end"><img src="/icons/church.svg" alt="cerkev" className="w-20 h-20" /></div>
+              <div className="flex flex-col gap-2">
+                <div className="text-2xl font-bold text-white">Poroka</div>
+                <div className="text-lg text-white">14:00</div>
+                <div className="text-lg text-white">obred v <a href="https://www.google.com/maps/place/Cerkev+Marije+Pomo%C4%8Dnice+Rakovnik/@46.0371188,14.5260094,18.85z/data=!4m6!3m5!1s0x47652dbb6745fa4b:0x39e09d01345d1f99!8m2!3d46.0374167!4d14.5250851!16s%2Fg%2F11fj1bqd1r?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" className="underline text-white">Župnijski cerkevi Marije Pomočnice</a></div>
+              </div>
+              {/* Skupinsko slikanje */}
+              <div className="flex justify-end"><img src="/icons/camera.svg" alt="foto" className="w-20 h-20" /></div>
+              <div className="flex flex-col gap-2">
+                <div className="text-2xl font-bold text-white">Skupinsko slikanje</div>
+                <div className="text-lg text-white">16:00</div>
+                <div className="text-lg text-white">pred cerkvijo</div>
+              </div>
+              {/* Zakuska */}
+              <div className="flex justify-end"><img src="/icons/food.svg" alt="hrana" className="w-20 h-20" /></div>
+              <div className="flex flex-col gap-2">
+                <div className="text-2xl font-bold text-white">Zakuska</div>
+                <div className="text-lg text-white">16:05</div>
+                <div className="text-lg text-white"><a href="https://www.google.com/maps/place/Dija%C5%A1ki+dom+Janeza+Boska/@46.0373266,14.5255353,19.55z/data=!4m6!3m5!1s0x47652d22f6689f6d:0xcbddcd1aaef38011!8m2!3d46.0370064!4d14.525536!16s%2Fg%2F11j81t443l?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="underline text-white" target="_blank">Majcnov dom</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
-      {/* About Najine želje Section */}
+      {/* Dresscode in bonton Section */}
       <section id="wishes" className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
-          <h3 className="text-3xl font-bold text-[#b17253] mb-6">Najine želje</h3>
+          <h3 className="text-3xl font-bold text-[#b17253] mb-6">Dresscode in par malenkosti</h3>
           <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
-            <p>Darila - Denar</p>
-            <p>Dresscode: <a href="https://www.color-hex.com/color-palette/1223" target="_blank" className="text-[#b17253] hover:underline">pastel</a></p>
-            <p>Prepovedane barve oblek: Bela, Črna, Rdeča</p>
-            <p>Brez kraje šopka</p>
-            <p>Ni maškar</p>
+            <p>Zelo bova vesela, če nama pomagate ustvariti tisto pravo, nežno vzdušje, zato imava par majhnih želja glede videza in dogajanja:</p>
+            <p>Barve v <a href="https://www.color-hex.com/color-palette/1223" target="_blank" className="text-[#b17253] hover:underline">pastelih</a>. Najbolj boste zablesteli v kakšnih nežnih, pastelnih odtenkih. Če se le da, se poskusite izogniti beli (ta je tokrat rezervirana za nevesto), črni in močni rdeči.</p>
+            <p>Šopek naj ostane pri nevesti. Tradicije so super, ampak krajo šopka bi tokrat raje izpustila. Naj nevesta v svojem cvetju uživa cel večer.</p>
           </div>
         </div>
         <div>
-          <img src="/images/2.jpg" alt="O najini zgodbi" className="w-full h-64 object-cover rounded" />
+          <img src="/images/slika 1.jpg" alt="O najini zgodbi" className="w-full h-64 object-cover rounded" />
         </div>
+      </section>
+
+      {/* Ali želiš pomagati Section */}
+      <section id="help" className="max-w-6xl mx-auto px-6 py-16">
+        <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Ali želiš pomagati?</h3>
+        <p className="text-gray-600 text-lg leading-relaxed text-center">Ker sva že večkrat slišala, naj ne bova trmasta in vsega delava sama, iščeva, kakšnega pekovskega mojstra ali vajenca, ki bi bil pripravljen speči, kakšno dobroto. Če si želiš pomagati se vpiši v <a href="https://docs.google.com/spreadsheets/d/1s5tt8S0iLu9WvMv3C8WelAbdJPP3aeCN2pZeOF8QZmQ/edit?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">tabelo</a>.</p>
+      </section>
+
+      {/* Image Section */}
+      <section className="max-w-6xl mx-auto px-6 py-16 text-center">
+        <img src="/images/slika 3.jpg" alt="Slika 3" className="w-full max-w-md h-auto rounded shadow-lg mx-auto" />
+      </section>
+
+      {/* Darila Section */}
+      <section id="gifts" className="max-w-6xl mx-auto px-6 py-16">
+        <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Darila</h3>
+        <p className="text-gray-600 text-lg leading-relaxed text-center">Največje darilo nama bo vaša družba, a če naju želite razveseliti še s čim, bova najbolj hvaležna za prispevek v sklad za začetek najine skupne življenjske poti.</p>
+      </section>
+
+      {/* Slike Section */}
+      <section id="photos" className="max-w-6xl mx-auto px-6 py-16">
+        <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Slike</h3>
+        <p className="text-gray-600 text-lg leading-relaxed text-center"><a href="https://drive.google.com/drive/folders/1J3QsGeoaQKXYr6_6LQZyqArtC0Zg3Z3l?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">Tukaj</a> lahko naložiš in pogledaš vse slike iz poroke, tudi midva jih bova naložila po poroki.</p>
       </section>
 
       {/* Foto Galerija */}
       <section id="gallery" className="max-w-6xl mx-auto px-6 py-16">
-        <h3 className="text-3xl font-bold text-[#b17253] mb-6">Foto galerija</h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {[
             '/images/ANA09113.jpg',
