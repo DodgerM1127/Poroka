@@ -107,6 +107,11 @@ export default function Povabljeni() {
         <p className="text-gray-600 text-lg leading-relaxed text-center">Ker sva že večkrat slišala, naj ne bova trmasta in vsega delava sama, iščeva, kakšnega pekovskega mojstra ali vajenca, ki bi bil pripravljen speči, kakšno dobroto. Če si želiš pomagati se vpiši v <a href="https://docs.google.com/spreadsheets/d/1s5tt8S0iLu9WvMv3C8WelAbdJPP3aeCN2pZeOF8QZmQ/edit?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">tabelo</a>.</p>
       </section>
 
+      {/* Image Section */}
+      <section className="max-w-6xl mx-auto px-6 py-16 text-center">
+        <img src="/images/slika 3.jpg" alt="Slika 3" className="w-full max-w-md h-auto rounded shadow-lg mx-auto" />
+      </section>
+
       {/* Darila Section */}
       <section id="gifts" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Darila</h3>
