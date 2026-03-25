@@ -94,8 +94,23 @@ export default function Povabljeni() {
             <p>Šopek naj ostane pri nevesti. Tradicije so super, ampak krajo šopka bi tokrat raje izpustila. Naj nevesta v svojem cvetju uživa cel večer.</p>
           </div>
         </div>
-        <div>
-          <img src="/images/slika 1.jpg" alt="O najini zgodbi" className="w-full h-64 object-cover rounded" />
+      </section>
+
+      {/* Color Palette Images */}
+      <section className="max-w-6xl mx-auto px-6 py-16">
+        <div className="grid grid-cols-2 gap-4">
+          <div className="h-40 rounded overflow-hidden">
+            <img src="/images/paletam1.jpg" alt="Paleta 1" className="w-full h-full object-cover" />
+          </div>
+          <div className="h-40 rounded overflow-hidden">
+            <img src="/images/paletam2.jpg" alt="Paleta 2" className="w-full h-full object-cover" />
+          </div>
+          <div className="h-40 rounded overflow-hidden">
+            <img src="/images/paletam1.jpg" alt="Paleta 1" className="w-full h-full object-cover" />
+          </div>
+          <div className="h-40 rounded overflow-hidden">
+            <img src="/images/paletam2.jpg" alt="Paleta 2" className="w-full h-full object-cover" />
+          </div>
         </div>
       </section>
 
@@ -114,6 +129,9 @@ export default function Povabljeni() {
       <section id="gifts" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Darila</h3>
         <p className="text-gray-600 text-lg leading-relaxed text-center">Največje darilo nama bo vaša družba, a če naju želite razveseliti še s čim, bova najbolj hvaležna za prispevek v sklad za začetek najine skupne življenjske poti.</p>
+        <div>
+          <img src="/images/slika 1.jpg" alt="O najini zgodbi" className="w-full h-64 object-cover rounded" />
+        </div>
       </section>
 
       {/* Slike Section */}
