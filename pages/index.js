@@ -65,20 +65,6 @@ export default function Povabljeni() {
                 <div className="text-lg text-white">16:05</div>
                 <div className="text-lg text-white"><a href="https://www.google.com/maps/place/Dija%C5%A1ki+dom+Janeza+Boska/@46.0373266,14.5255353,19.55z/data=!4m6!3m5!1s0x47652d22f6689f6d:0xcbddcd1aaef38011!8m2!3d46.0370064!4d14.525536!16s%2Fg%2F11j81t443l?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="underline text-white" target="_blank">Majcnov dom</a></div>
               </div>
-              {/* Odhod v gostilno */}
-              <div className="flex justify-end"><img src="/icons/car.svg" alt="prevoz" className="w-20 h-20" /></div>
-              <div className="flex flex-col gap-2">
-                <div className="text-2xl font-bold text-white">Odhod v gostilno</div>
-                <div className="text-lg text-white">17:00</div>
-                <div className="text-lg text-white"><a href="https://www.google.com/maps/place/Gostilna+Javornik+Goran+Pevec+S.P./@45.9609662,15.0885783,17z/data=!3m1!4b1!4m6!3m5!1s0x4765056c39f292f9:0xcad74ed40d7cb850!8m2!3d45.9609662!4d15.0911532!16s%2Fg%2F1tgz483q?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="underline text-white" target="_blank">Javornik</a></div>
-              </div>
-              {/* Zabava */}
-              <div className="flex justify-end"><img src="/icons/music.svg" alt="glasba" className="w-20 h-20" /></div>
-              <div className="flex flex-col gap-2">
-                <div className="text-2xl font-bold text-white">Zabava</div>
-                <div className="text-lg text-white">18:00</div>
-                <div className="text-lg text-white">Okvirni začetek</div>
-              </div>
             </div>
           </div>
         </div>
