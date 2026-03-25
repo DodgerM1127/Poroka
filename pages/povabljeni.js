@@ -100,16 +100,16 @@ export default function Povabljeni() {
       <section className="max-w-6xl mx-auto px-6 py-16">
         <div className="grid grid-cols-2 gap-4">
           <div className="h-40 rounded overflow-hidden">
-            <img src="/images/paletam1.jpg" alt="Paleta 1" className="w-full h-full object-cover" />
+            <img src="/images/paletam1.jpg" alt="Paleta 1" className="w-full h-full object-cover shadow-lg" />
           </div>
           <div className="h-40 rounded overflow-hidden">
-            <img src="/images/paletam2.jpg" alt="Paleta 2" className="w-full h-full object-cover" />
+            <img src="/images/paletam2.jpg" alt="Paleta 2" className="w-full h-full object-cover shadow-lg" />
           </div>
           <div className="h-40 rounded overflow-hidden">
-            <img src="/images/paletam1.jpg" alt="Paleta 1" className="w-full h-full object-cover" />
+            <img src="/images/paletam1.jpg" alt="Paleta 1" className="w-full h-full object-cover shadow-lg" />
           </div>
           <div className="h-40 rounded overflow-hidden">
-            <img src="/images/paletam2.jpg" alt="Paleta 2" className="w-full h-full object-cover" />
+            <img src="/images/paletam2.jpg" alt="Paleta 2" className="w-full h-full object-cover shadow-lg" />
           </div>
         </div>
       </section>
