@@ -27,7 +27,7 @@ export default function Povabljeni() {
       {/* Intro Text */}
       <section className="max-w-3xl mx-auto px-6 py-12 text-center">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Dragi prijatelji!</h3>
-        <p className="text-lg text-gray-700 mb-4 leading-relaxed">Najin dan ne bo isti brez tebe. Da bova lažje pripravila vse potrebno za najin dan, nama prosim pomagaj in se oznaci ce prides cim prej, najkasneje pa do 29. 6. Se vidimo kmalu!</p>
+        <p className="text-lg text-gray-700 mb-4 leading-relaxed">Najin dan ne bo isti brez tebe. Da bova lažje pripravila vse potrebno, nama prosim pomagaj in se označi če prideš čim prej, najkasneje pa do 29. 6. Se vidimo kmalu!</p>
       </section>
 
       {/* RSVP Button */}
@@ -71,12 +71,12 @@ export default function Povabljeni() {
       </section>
 
       {/* Dresscode in bonton Section */}
-      <section id="wishes" className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <section id="wishes" className="max-w-6xl mx-auto px-6 py-16">
         <div>
           <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Dresscode & par malenkosti</h3>
           <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
             <p className="text-gray-600 text-lg leading-relaxed text-center">Zelo bova vesela, če nama pomagate ustvariti tisto pravo, nežno vzdušje, zato imava par majhnih želja glede videza in dogajanja:</p>
-            <p className="text-gray-600 text-lg leading-relaxed text-center">Barve v <a href="https://www.color-hex.com/color-palette/1032030" target="_blank" className="text-[#b17253] hover:underline">pastelih</a>. Najbolj boste zablesteli v kakšnih nežnih, pastelnih odtenkih. Če se le da, se poskusite izogniti beli (ta je tokrat rezervirana za nevesto), črni in močni rdeči.</p>
+            <p className="text-gray-600 text-lg leading-relaxed text-center">Barve v <a href="https://www.color-hex.com/color-palette/1032030" target="_blank" className="text-[#b17253] hover:underline">pastelih</a>. Najbolj boste zablesteli v kakšnih nežnih, pastelnih odtenkih. Če se le da, se poskusite izogniti beli (ta je tokrat rezervirana za nevesto), črni in rdeči.</p>
             <p className="text-gray-600 text-lg leading-relaxed text-center">Šopek naj ostane pri nevesti. Tradicije so super, ampak krajo šopka bi tokrat raje izpustila. Naj nevesta v svojem cvetju uživa cel večer.</p>
           </div>
         </div>
@@ -85,16 +85,16 @@ export default function Povabljeni() {
       {/* Color Palette Images */}
       <section className="max-w-6xl mx-auto px-6 py-16">
         <div className="grid grid-cols-2 gap-4">
-          <div className="h-40 rounded overflow-hidden">
+          <div className="h-64 rounded overflow-hidden">
             <img src="/images/paletam1.jpg" alt="Paleta 1" className="w-full h-full object-cover shadow-lg" />
           </div>
-          <div className="h-40 rounded overflow-hidden">
+          <div className="h-64 rounded overflow-hidden">
             <img src="/images/paletam2.jpg" alt="Paleta 2" className="w-full h-full object-cover shadow-lg" />
           </div>
-          <div className="h-40 rounded overflow-hidden">
+          <div className="h-64 rounded overflow-hidden">
             <img src="/images/paletam1.jpg" alt="Paleta 1" className="w-full h-full object-cover shadow-lg" />
           </div>
-          <div className="h-40 rounded overflow-hidden">
+          <div className="h-64 rounded overflow-hidden">
             <img src="/images/paletam2.jpg" alt="Paleta 2" className="w-full h-full object-cover shadow-lg" />
           </div>
         </div>
