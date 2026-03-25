@@ -89,12 +89,11 @@ export default function Povabljeni() {
       {/* Dresscode in bonton Section */}
       <section id="wishes" className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
-          <h3 className="text-3xl font-bold text-[#b17253] mb-6">Dresscode in bonton</h3>
+          <h3 className="text-3xl font-bold text-[#b17253] mb-6">Dresscode in par malenkosti</h3>
           <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
-            <p>Dresscode: <a href="https://www.color-hex.com/color-palette/1223" target="_blank" className="text-[#b17253] hover:underline">pastel</a></p>
-            <p>Prepovedane barve oblek: Bela, Črna, Rdeča</p>
-            <p>Brez kraje šopka</p>
-            <p>Ni maškar</p>
+            <p>Zelo bova vesela, če nama pomagate ustvariti tisto pravo, nežno vzdušje, zato imava par majhnih želja glede videza in dogajanja:</p>
+            <p>Barve v <a href="https://www.color-hex.com/color-palette/1223" target="_blank" className="text-[#b17253] hover:underline">pastelih</a>. Najbolj boste zablesteli v kakšnih nežnih, pastelnih odtenkih. Če se le da, se poskusite izogniti beli (ta je tokrat rezervirana za nevesto), črni in močni rdeči.</p>
+            <p>Šopek naj ostane pri nevesti. Tradicije so super, ampak krajo šopka bi tokrat raje izpustila. Naj nevesta v svojem cvetju uživa cel večer.</p>
           </div>
         </div>
         <div>
