@@ -15,8 +15,7 @@ export default function Povabljeni() {
           <h2 className="text-4xl font-serif font-bold mb-4 mt-6">29. avgusta 2026</h2>
           
           <p className="text-lg leading-relaxed mt-12">
-            Živjo! Vesela sva, da boste z nama ob vstopu v novo poglavje. Tukaj najdete vse informacije o najini poroki, da bo načrtovanje lažje za vse. Se vidimo kmalu!
-          </p>
+            Če si odprl tole spletno stran, si verjetno v najinih srcih pustil poseben pečat, zato te vabiva, da se nama pridružiš na najini poroki.</p>
 
           {/* Countdown moved directly under the heading */}
           <div className="mt-8 mb-6">
@@ -28,7 +27,7 @@ export default function Povabljeni() {
       {/* Intro Text */}
       <section className="max-w-3xl mx-auto px-6 py-12 text-center">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Dragi prijatelji!</h3>
-        <p className="text-lg text-gray-700 mb-4 leading-relaxed">Če si odprl tole spletno stran, si verjetno v najinih srcih pustil poseben pečat, zato te vabiva, da se nama pridružiš na najini poroki.</p>
+        <p className="text-lg text-gray-700 mb-4 leading-relaxed">Najin dan ne bo isti brez tebe. Da bova lažje pripravila vse potrebno za nepozaben večer, naju prosim razveseli s potrditvijo udeležbe čim prej, najkasneje pa do 29. 6. Se vidimo kmalu!</p>
       </section>
 
       {/* RSVP Button */}
