@@ -65,6 +65,20 @@ export default function Povabljeni() {
                 <div className="text-lg text-white">16:05</div>
                 <div className="text-lg text-white"><a href="https://www.google.com/maps/place/Dija%C5%A1ki+dom+Janeza+Boska/@46.0373266,14.5255353,19.55z/data=!4m6!3m5!1s0x47652d22f6689f6d:0xcbddcd1aaef38011!8m2!3d46.0370064!4d14.525536!16s%2Fg%2F11j81t443l?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="underline text-white" target="_blank">Majcnov dom</a></div>
               </div>
+              {/* Odhod v gostilno */}
+              <div className="flex justify-end"><img src="/icons/car.svg" alt="prevoz" className="w-20 h-20" /></div>
+              <div className="flex flex-col gap-2">
+                <div className="text-2xl font-bold text-white">Odhod v gostilno</div>
+                <div className="text-lg text-white">17:00</div>
+                <div className="text-lg text-white"><a href="https://www.google.com/maps/place/Gostilna+Javornik+Goran+Pevec+S.P./@45.9609662,15.0885783,17z/data=!3m1!4b1!4m6!3m5!1s0x4765056c39f292f9:0xcad74ed40d7cb850!8m2!3d45.9609662!4d15.0911532!16s%2Fg%2F1tgz483q?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="underline text-white" target="_blank">Javornik</a></div>
+              </div>
+              {/* Zabava */}
+              <div className="flex justify-end"><img src="/icons/music.svg" alt="glasba" className="w-20 h-20" /></div>
+              <div className="flex flex-col gap-2">
+                <div className="text-2xl font-bold text-white">Zabava</div>
+                <div className="text-lg text-white">18:00</div>
+                <div className="text-lg text-white">Okvirni začetek</div>
+              </div>
             </div>
           </div>
         </div>
@@ -73,15 +87,30 @@ export default function Povabljeni() {
       {/* Dresscode in bonton Section */}
       <section id="wishes" className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
-          <h3 className="text-3xl font-bold text-[#b17253] mb-6">Dresscode in par malenkosti</h3>
+          <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Dresscode & par malenkosti</h3>
           <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
-            <p>Zelo bova vesela, če nama pomagate ustvariti tisto pravo, nežno vzdušje, zato imava par majhnih želja glede videza in dogajanja:</p>
-            <p>Barve v <a href="https://www.color-hex.com/color-palette/1223" target="_blank" className="text-[#b17253] hover:underline">pastelih</a>. Najbolj boste zablesteli v kakšnih nežnih, pastelnih odtenkih. Če se le da, se poskusite izogniti beli (ta je tokrat rezervirana za nevesto), črni in močni rdeči.</p>
-            <p>Šopek naj ostane pri nevesti. Tradicije so super, ampak krajo šopka bi tokrat raje izpustila. Naj nevesta v svojem cvetju uživa cel večer.</p>
+            <p className="text-gray-600 text-lg leading-relaxed text-center">Zelo bova vesela, če nama pomagate ustvariti tisto pravo, nežno vzdušje, zato imava par majhnih želja glede videza in dogajanja:</p>
+            <p className="text-gray-600 text-lg leading-relaxed text-center">Barve v <a href="https://www.color-hex.com/color-palette/1032030" target="_blank" className="text-[#b17253] hover:underline">pastelih</a>. Najbolj boste zablesteli v kakšnih nežnih, pastelnih odtenkih. Če se le da, se poskusite izogniti beli (ta je tokrat rezervirana za nevesto), črni in močni rdeči.</p>
+            <p className="text-gray-600 text-lg leading-relaxed text-center">Šopek naj ostane pri nevesti. Tradicije so super, ampak krajo šopka bi tokrat raje izpustila. Naj nevesta v svojem cvetju uživa cel večer.</p>
           </div>
         </div>
-        <div>
-          <img src="/images/slika 1.jpg" alt="O najini zgodbi" className="w-full h-64 object-cover rounded" />
+      </section>
+
+      {/* Color Palette Images */}
+      <section className="max-w-6xl mx-auto px-6 py-16">
+        <div className="grid grid-cols-2 gap-4">
+          <div className="h-40 rounded overflow-hidden">
+            <img src="/images/paletam1.jpg" alt="Paleta 1" className="w-full h-full object-cover shadow-lg" />
+          </div>
+          <div className="h-40 rounded overflow-hidden">
+            <img src="/images/paletam2.jpg" alt="Paleta 2" className="w-full h-full object-cover shadow-lg" />
+          </div>
+          <div className="h-40 rounded overflow-hidden">
+            <img src="/images/paletam1.jpg" alt="Paleta 1" className="w-full h-full object-cover shadow-lg" />
+          </div>
+          <div className="h-40 rounded overflow-hidden">
+            <img src="/images/paletam2.jpg" alt="Paleta 2" className="w-full h-full object-cover shadow-lg" />
+          </div>
         </div>
       </section>
 
@@ -100,6 +129,11 @@ export default function Povabljeni() {
       <section id="gifts" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Darila</h3>
         <p className="text-gray-600 text-lg leading-relaxed text-center">Največje darilo nama bo vaša družba, a če naju želite razveseliti še s čim, bova najbolj hvaležna za prispevek v sklad za začetek najine skupne življenjske poti.</p>
+      </section>
+
+      {/* Image Section */}
+      <section className="max-w-6xl mx-auto px-6 py-16 text-center">
+        <img src="/images/slika 1.jpg" alt="Slika 1" className="w-full max-w-md h-auto rounded shadow-lg mx-auto" />
       </section>
 
       {/* Slike Section */}
