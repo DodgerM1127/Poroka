@@ -129,9 +129,11 @@ export default function Povabljeni() {
       <section id="gifts" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Darila</h3>
         <p className="text-gray-600 text-lg leading-relaxed text-center">Največje darilo nama bo vaša družba, a če naju želite razveseliti še s čim, bova najbolj hvaležna za prispevek v sklad za začetek najine skupne življenjske poti.</p>
-        <div>
-          <img src="/images/slika 1.jpg" alt="O najini zgodbi" className="w-full h-64 object-cover rounded" />
-        </div>
+      </section>
+
+      {/* Image Section */}
+      <section className="max-w-6xl mx-auto px-6 py-16 text-center">
+        <img src="/images/slika 1.jpg" alt="Slika 1" className="w-full max-w-md h-auto rounded shadow-lg mx-auto" />
       </section>
 
       {/* Slike Section */}
