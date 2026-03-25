@@ -85,7 +85,7 @@ export default function Povabljeni() {
       </section>
 
       {/* Dresscode in bonton Section */}
-      <section id="wishes" className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <section id="wishes" className="max-w-6xl mx-auto px-6 py-16">
         <div>
           <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Dresscode & par malenkosti</h3>
           <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
