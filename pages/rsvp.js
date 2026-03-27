@@ -23,7 +23,7 @@ export default function RSVPPage() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-start gap-8 px-6 py-16">
-      <h2 className="text-3xl font-semibold">Sporoči nama če prideš na poroko</h2>
+      <h2 className="text-3xl font-semibold">Sporoči nama, če prideš na poroko</h2>
       <p className="text-gray-600">Prosiva, sporoči nama, ali se nam boš pridružil/a.</p>
       <RSVPForm onSuccess={onSuccess} />
 
