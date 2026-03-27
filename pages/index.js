@@ -70,14 +70,13 @@ export default function Povabljeni() {
         </div>
       </section>
 
-      {/* Dresscode in bonton Section */}
-      <section id="wishes" className="max-w-6xl mx-auto px-6 py-16">
+      {/* Dresscode Section */}
+      <section id="dresscode" className="max-w-6xl mx-auto px-6 py-16">
         <div>
-          <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Dresscode & par malenkosti</h3>
+          <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Dresscode</h3>
           <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
             <p className="text-gray-600 text-lg leading-relaxed text-center">Zelo bova vesela, če nama pomagate ustvariti tisto pravo, nežno vzdušje, zato imava par majhnih želja glede videza in dogajanja:</p>
             <p className="text-gray-600 text-lg leading-relaxed text-center">Barve v <a href="https://www.color-hex.com/color-palette/1032030" target="_blank" className="text-[#b17253] hover:underline">pastelih</a>. Najbolj boste zablesteli v kakšnih nežnih, pastelnih odtenkih. Če se le da, se poskusite izogniti beli (ta je tokrat rezervirana za nevesto), črni in rdeči.</p>
-            <p className="text-gray-600 text-lg leading-relaxed text-center">Šopek naj ostane pri nevesti. Tradicije so super, ampak krajo šopka bi tokrat raje izpustila. Naj nevesta v svojem cvetju uživa cel večer.</p>
           </div>
         </div>
       </section>
@@ -98,6 +97,21 @@ export default function Povabljeni() {
             <img src="/images/paletam2.jpg" alt="Paleta 2" className="w-full h-full object-cover shadow-lg" />
           </div>
         </div>
+      </section>
+
+      {/* Par malenkosti Section */}
+            <section id="malenkosti" className="max-w-6xl mx-auto px-6 py-16">
+              <div>
+                <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Par malenkosti</h3>
+                <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
+                  <p className="text-gray-600 text-lg leading-relaxed text-center">Šopek naj ostane pri nevesti. Tradicije so super, ampak krajo šopka bi tokrat raje izpustila. Naj nevesta v svojem cvetju uživa cel večer.</p>
+                </div>
+              </div>
+            </section>
+
+      {/* Image Section */}
+      <section className="max-w-6xl mx-auto px-6 py-16 text-center">
+        <img src="/images/slika 3.jpg" alt="Slika 3" className="w-full max-w-md h-auto rounded shadow-lg mx-auto" />
       </section>
 
       {/* Ali želiš pomagati Section */}
