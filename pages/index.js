@@ -49,7 +49,7 @@ export default function Povabljeni() {
               <div className="flex flex-col gap-2">
                 <div className="text-2xl font-bold text-white">Poroka</div>
                 <div className="text-lg text-white">14:00</div>
-                <div className="text-lg text-white">obred v <a href="https://www.google.com/maps/place/Cerkev+Marije+Pomo%C4%8Dnice+Rakovnik/@46.0371188,14.5260094,18.85z/data=!4m6!3m5!1s0x47652dbb6745fa4b:0x39e09d01345d1f99!8m2!3d46.0374167!4d14.5250851!16s%2Fg%2F11fj1bqd1r?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" className="underline text-white">Župnijski cerkevi Marije Pomočnice</a></div>
+                <div className="text-lg text-white">obred v <a href="https://www.google.com/maps/place/Cerkev+Marije+Pomo%C4%8Dnice+Rakovnik/@46.0371188,14.5260094,18.85z/data=!4m6!3m5!1s0x47652dbb6745fa4b:0x39e09d01345d1f99!8m2!3d46.0374167!4d14.5250851!16s%2Fg%2F11fj1bqd1r?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" className="underline text-white">Župnijski cerkvi Marije Pomočnice</a></div>
               </div>
               {/* Skupinsko slikanje */}
               <div className="flex justify-end"><img src="/icons/camera.svg" alt="foto" className="w-20 h-20" /></div>
