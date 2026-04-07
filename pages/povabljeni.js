@@ -155,11 +155,11 @@ export default function Povabljeni() {
         <div className="space-y-4">
           <details className="bg-gray-100 p-4 rounded">
             <summary className="cursor-pointer font-semibold text-gray-800">Do kdaj moram napisati, če pridem na poroko?</summary>
-            <p className="mt-2 text-gray-600">Do 29. 7. Najbolje je, pa da takoj označiš.</p>
+            <p className="mt-2 text-gray-600">Do 29. 6. Najbolje je, pa da takoj označiš.</p>
           </details>
           <details className="bg-gray-100 p-4 rounded">
             <summary className="cursor-pointer font-semibold text-gray-800">Kaj naredim, če sem se označil da pridem, pa sem ugotovil, da me ne bo?</summary>
-            <p className="mt-2 text-gray-600">Enostavno še enkrat izpolni obrazec. Če pa si se premislil po 29.6. pa nama sporoči na 064 140 471 (Gaja) ali 070 798 388 (Matej)</p>
+            <p className="mt-2 text-gray-600">Enostavno še enkrat izpolni obrazec. Če pa si se premislil po 29. 6. pa nama sporoči na 064 140 471 (Gaja) ali 070 798 388 (Matej)</p>
           </details>
           <details className="bg-gray-100 p-4 rounded">
             <summary className="cursor-pointer font-semibold text-gray-800">Ali je ful narobe, če se ne držim dresscoda?</summary>
