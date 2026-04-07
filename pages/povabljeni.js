@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Countdown from '../components/Countdown'
 
 export default function Povabljeni() {
-  const target = '2026-08-29T14:00:00+01:00'
+  const target = '2026-08-29T14:00:00+02:00'
   return (
     <div className="min-h-screen flex flex-col">
 
