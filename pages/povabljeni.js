@@ -119,6 +119,9 @@ export default function Povabljeni() {
                 <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Nekaj malenkosti</h3>
                 <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
                   <p className="text-gray-600 text-lg leading-relaxed text-center">Šopek naj ostane pri nevesti. Tradicije so super, ampak krajo šopka bi tokrat raje izpustila. Naj nevesta v svojem cvetju uživa cel večer.</p>
+                  <p className="text-gray-600 text-lg leading-relaxed text-center">Irish goodbye: Če naju vidiš sredi plesa, ti pa si že utrujen in pripravljen za odhod domov, brez skrbi, lahko greš tudi brez posebnega poslavljanja. Ne bova jezna, če nama pa boš želel še kaj povedati, sva vedno za kakav, sprehod ali kosilo.</p>
+                  <p className="text-gray-600 text-lg leading-relaxed text-center">Ne želiva si pijančevanja. Naj bo večer poln dobre volje, plesa in lepih trenutkov, ne pa zgodb, ki se jih naslednji dan nihče ne spomni.</p>
+                  <p className="text-gray-600 text-lg leading-relaxed text-center">Telefon naj večino časa ostane v torbici ali žepu. Zelo vesela bova vseh fotografij, a med cerkveno poroko in prvim plesom bi rada videla obraze, ne ekranov. Imava tudi super fotografinjo Ano in snemalca Petra, ki bosta ujela vse pomembne trenutke.</p>
                 </div>
               </div>
             </section>
