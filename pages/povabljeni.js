@@ -171,7 +171,7 @@ export default function Povabljeni() {
           </details>
           <details className="bg-gray-100 p-4 rounded">
             <summary className="cursor-pointer font-semibold text-gray-800">Kako je z alkoholom?</summary>
-            <p className="mt-2 text-gray-600"></p>
+            <p className="mt-2 text-gray-600">Midva si želiva, da nihče ne pije. Vseeno bo na fešti na voljo nekaj vina (ali česar koli). Če te skrbi, da se res ne boš mogel zabavati, če ne boš spil enega in bi bilo mnogo bolje, če bi lahko, se oglasi <a href="https://www.psih-klinika.si/strokovne-enote/center-za-mentalno-zdravje/enota-za-zdravljenje-odvisnosti-od-alkohola/" target="_blank" className="text-[#b17253] hover:underline">tukaj</a> ali <a href="https://nalijem.si/vprasalnik" target="_blank" className="text-[#b17253] hover:underline">tukaj</a>  (tale ti bo povedal, če rabiš prvega). Če pa ti bo še vseeno bedno in se ti zdi, da je kriminal, če se na poroki ne pije, potem mogoče najina poroka ni mesto zate. Z veseljem se potem dobimo kje drugje.</p>
           </details>
         </div>
       </section>
