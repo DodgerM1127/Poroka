@@ -161,9 +161,6 @@ export default function Povabljeni() {
       </section>
 
 
-      <footer className="bg-white border-t mt-auto py-6 text-center text-gray-600 text-sm">
-        <p>gajamatej.com — G&M — Gaja & Matej</p>
-      </footer>
     </div>
   )
 }

@@ -178,9 +178,6 @@ export default function Povabljeni() {
       </section>
 
 
-      <footer className="bg-white border-t mt-auto py-6 text-center text-gray-600 text-sm">
-        <p>Če želiš darovati 5 evrov za vse potiške, pošlji sms POTIŠKA5 na 1919</p>
-      </footer>
     </div>
   )
 }
