@@ -158,8 +158,12 @@ export default function Povabljeni() {
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Pogosta vprašanja in odgovori</h3>
         <div className="space-y-4">
           <details className="bg-gray-100 p-4 rounded">
-            <summary className="cursor-pointer font-semibold text-gray-800">Do kdaj moram napisati če pridem na poroko?</summary>
+            <summary className="cursor-pointer font-semibold text-gray-800">Do kdaj moram napisati, če pridem na poroko?</summary>
             <p className="mt-2 text-gray-600">Do 29. 7. Najbolje je, pa da takoj označiš.</p>
+          </details>
+          <details className="bg-gray-100 p-4 rounded">
+            <summary className="cursor-pointer font-semibold text-gray-800">Kaj naredim, če sem se označil da pridem, pa sem ugotovil, da me ne bo?</summary>
+            <p className="mt-2 text-gray-600">Enostavno še enkrat izpolni obrazec. Če pa si se premislil po 29.7. pa nama sporoči na 064 140 471 (Gaja) ali 070 798 388 (Matej)</p>
           </details>
         </div>
       </section>
