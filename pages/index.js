@@ -63,7 +63,7 @@ export default function Povabljeni() {
               <div className="flex flex-col gap-2">
                 <div className="text-2xl font-bold text-white">Zakuska</div>
                 <div className="text-lg text-white">16:05</div>
-                <div className="text-lg text-white"><a href="https://www.google.com/maps/place/Dija%C5%A1ki+dom+Janeza+Boska/@46.0373266,14.5255353,19.55z/data=!4m6!3m5!1s0x47652d22f6689f6d:0xcbddcd1aaef38011!8m2!3d46.0370064!4d14.525536!16s%2Fg%2F11j81t443l?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="underline text-white" target="_blank">Majcnov dom</a></div>
+                <div className="text-lg text-white"><a href="https://www.google.com/maps/place/Dija%C5%A1ki+dom+Janeza+Boska/@46.0373266,14.5255353,19.55z/data=!4m6!3m5!1s0x47652d22f6689f6d:0xcbddcd1aaef38011!8m2!3d46.0370064!4d14.525536!16s%2Fg%2F11j81t443l?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" className="underline text-white" target="_blank">Dijaški dom</a></div>
               </div>
             </div>
           </div>
