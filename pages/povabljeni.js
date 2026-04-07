@@ -153,6 +153,17 @@ export default function Povabljeni() {
         <img src="/images/slika 1.jpg" alt="Slika 1" className="w-full max-w-md h-auto rounded shadow-lg mx-auto" />
       </section>
 
+      {/* Pogosta vprašanja in odgovori Section */}
+      <section id="faq" className="max-w-6xl mx-auto px-6 py-16">
+        <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Pogosta vprašanja in odgovori</h3>
+        <div className="space-y-4">
+          <details className="bg-gray-100 p-4 rounded">
+            <summary className="cursor-pointer font-semibold text-gray-800">Do kdaj moram napisati če pridem na poroko?</summary>
+            <p className="mt-2 text-gray-600">Do 29. 7. Najbolje je, pa da takoj označiš.</p>
+          </details>
+        </div>
+      </section>
+
       {/* Slike Section */}
       <section id="photos" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Slike</h3>
