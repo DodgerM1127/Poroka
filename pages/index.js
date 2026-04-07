@@ -102,7 +102,7 @@ export default function Povabljeni() {
       {/* Par malenkosti Section */}
             <section id="malenkosti" className="max-w-6xl mx-auto px-6 py-16">
               <div>
-                <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Par malenkosti</h3>
+                <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Nekaj malenkosti</h3>
                 <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
                   <p className="text-gray-600 text-lg leading-relaxed text-center">Šopek naj ostane pri nevesti. Tradicije so super, ampak krajo šopka bi tokrat raje izpustila. Naj nevesta v svojem cvetju uživa cel večer.</p>
                 </div>
