@@ -109,10 +109,6 @@ export default function Povabljeni() {
               </div>
             </section>
 
-      {/* Image Section */}
-      <section className="max-w-6xl mx-auto px-6 py-16 text-center">
-        <img src="/images/slika 3.jpg" alt="Slika 3" className="w-full max-w-md h-auto rounded shadow-lg mx-auto" />
-      </section>
 
       {/* Ali želiš pomagati Section */}
       <section id="help" className="max-w-6xl mx-auto px-6 py-16">
