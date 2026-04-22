@@ -105,10 +105,10 @@ export default function Povabljeni() {
             <img src="/images/paletam2.jpg" alt="Paleta 2" className="w-full h-full object-cover shadow-lg" />
           </div>
           <div className="h-64 rounded overflow-hidden">
-            <img src="/images/paletam1.jpg" alt="Paleta 1" className="w-full h-full object-cover shadow-lg" />
+            <img src="/images/dresscodez1.png" alt="Paleta 1" className="w-full h-full object-cover shadow-lg" />
           </div>
           <div className="h-64 rounded overflow-hidden">
-            <img src="/images/paletam2.jpg" alt="Paleta 2" className="w-full h-full object-cover shadow-lg" />
+            <img src="/images/dresscodez2.png" alt="Paleta 2" className="w-full h-full object-cover shadow-lg" />
           </div>
         </div>
       </section>
