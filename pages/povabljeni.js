@@ -111,6 +111,9 @@ export default function Povabljeni() {
             <img src="/images/dresscodez2.png" alt="Paleta 2" className="w-full h-full object-cover shadow-lg" />
           </div>
         </div>
+        <div className="mt-8 text-center">
+          <img src="/images/paleta.png" alt="Paleta" className="w-full max-w-4xl h-auto rounded shadow-lg mx-auto" />
+        </div>
       </section>
 
       {/* Par malenkosti Section */}
