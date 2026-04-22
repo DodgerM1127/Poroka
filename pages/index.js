@@ -76,7 +76,7 @@ export default function Povabljeni() {
           <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Nekaj majhnih želja</h3>
           <div className="text-gray-600 text-lg leading-relaxed mb-4 space-y-2">
             <p className="text-gray-600 text-lg leading-relaxed text-center">Zelo bova vesela, če nama pomagate ustvariti tisto pravo, nežno vzdušje, zato imava par majhnih želja glede videza in dogajanja:</p>
-            <p className="text-gray-600 text-lg leading-relaxed text-center">Barve v <a href="https://share.google/PkE2XaGXyRF7ptUV2" target="_blank" className="text-[#b17253] hover:underline">pastelih</a>. Najbolj boste zablesteli v kakšnih nežnih, pastelnih odtenkih. Če se le da, se poskusite izogniti beli (ta je tokrat rezervirana za nevesto), črni in rdeči.</p>
+            <p className="text-gray-600 text-lg leading-relaxed text-center">Barve v pastelih. Najbolj boste zablesteli v kakšnih nežnih, pastelnih odtenkih. Če se le da, se poskusite izogniti beli (ta je tokrat rezervirana za nevesto), črni in rdeči.</p>
           </div>
         </div>
       </section>
