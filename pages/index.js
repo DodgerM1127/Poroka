@@ -35,7 +35,7 @@ export default function Povabljeni() {
         <Link href="/rsvp_povabljeni">
           <a className="inline-block px-6 py-3 rounded bg-[#b17253] text-white font-semibold hover:bg-[#944b33]" onClick={() => console.log('Navigate to /rsvp (cta)')}>POTRDI UDELEŽBO</a>
         </Link>
-        <p className="text-gray-600 text-lg leading-relaxed mt-4">Prosimo, da udeležbo potrdi vsak povabljenec posebej, da na pogostitvi ne bo zmanjkalo hrane.</p>
+        <p className="text-gray-600 text-lg leading-relaxed mt-4">Prosimo, da udeležbo potrdi vsak povabljen posebej, da na pogostitvi ne bo zmanjkalo hrane.</p>
       </section>
 
 
