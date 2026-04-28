@@ -32,7 +32,7 @@ export default function Povabljeni() {
 
       {/* RSVP Button */}
       <section className="py-8 text-center">
-        <Link href="/rsvp_povabljeni">
+        <Link href="/rsvp">
           <a className="inline-flex flex-col items-center px-6 py-3 rounded bg-[#b17253] text-white font-semibold hover:bg-[#944b33]" onClick={() => console.log('Navigate to /rsvp (cta)')}>
             <span>POTRDI UDELEŽBO</span>
             <span className="text-sm">(na cerkveno poroko)</span>
