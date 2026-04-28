@@ -38,7 +38,7 @@ export default function Povabljeni() {
             <span className="text-sm">(na cerkveno poroko)</span>
           </a>
         </Link>
-        <p className="text-gray-600 text-lg leading-relaxed mt-4">Prosimo, da udeležbo potrdi vsak povabljen posebej, da na pogostitvi ne bo zmanjkalo hrane.</p>
+        <p className="text-gray-600 text-lg leading-relaxed mt-4">Prosiva, da sporočiš, ali prideš na cerkveno poroko, da bova lahko poskrbela za prijetno zakusko za vse.</p>
       </section>
 
 
