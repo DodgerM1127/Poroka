@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 export default function RSVPForm({ onSuccess }) {
-  const [form, setForm] = useState({ name: '', attending: 'yes', message: '' })
+  const [form, setForm] = useState({ name: '', attending: 'yes' })
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
@@ -19,7 +19,7 @@ export default function RSVPForm({ onSuccess }) {
       if (!res.ok) throw new Error(data?.error || 'Unknown error')
       // pass the submitted name so the popup can show only the submitter
       onSuccess && onSuccess(data, form.name)
-      setForm({ name: '', attending: 'yes', message: '' })
+      setForm({ name: '', attending: 'yes' })
     } catch (err) {
       setError(err.message)
     } finally {
@@ -45,10 +45,6 @@ export default function RSVPForm({ onSuccess }) {
       </div>
       <div>
         <div className="text-sm text-gray-600">Če prihaja več oseb, prosimo izpolnite obrazec posebej za vsakega gosta.</div>
-      </div>
-      <div>
-        <label className="block text-sm font-medium">Napiši svojo najljubšo pesem za ples oziroma glasbeno željo</label>
-        <textarea name="message" value={form.message} onChange={handle} className="mt-1 block w-full rounded border px-3 py-2" />
       </div>
       <div>
         <button className="rounded bg-pink-600 text-white px-4 py-2" disabled={loading}>{loading ? 'Pošiljam...' : 'Pošlji odgovor'}</button>
