@@ -178,7 +178,7 @@ export default function Povabljeni() {
       {/* Slike Section */}
       <section id="photos" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Slike</h3>
-        <p className="text-gray-600 text-lg leading-relaxed text-center">Zelo bova vesela vseh fotografij.<a href="https://drive.google.com/drive/folders/1hGHXVAJj1xgGZez_Q5omlQYMj0cB4OmN?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">Tukaj</a> lahko naložiš in pogledaš vse slike s poroke, tudi midva jih bova naložila po poroki.</p>
+        <p className="text-gray-600 text-lg leading-relaxed text-center">Zelo bova vesela vseh fotografij. <a href="https://drive.google.com/drive/folders/1hGHXVAJj1xgGZez_Q5omlQYMj0cB4OmN?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">Tukaj</a> lahko naložiš in pogledaš vse slike s poroke, tudi midva jih bova naložila po poroki.</p>
       </section>
 
       {/* Foto Galerija */}
