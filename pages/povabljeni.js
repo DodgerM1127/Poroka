@@ -145,7 +145,7 @@ export default function Povabljeni() {
       <section id="gifts" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Darila</h3>
         <p className="text-gray-600 text-lg leading-relaxed text-center">Največje darilo nama bo vaša družba, a če naju želite razveseliti še s čim, bova najbolj hvaležna za prispevek v sklad za začetek najine skupne življenjske poti.</p>
-        <p className="text-gray-600 text-lg leading-relaxed text-center mt-4">če pa si želite nama podarit nekaj oprijemljivega pa siželiva  <a href="https://docs.google.com/spreadsheets/d/1AZnoQw4vC3czUmJbsyrbP1QhfLa2UjkqKCrl0Krpw6o/edit?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">tole</a>.</p>
+        <p className="text-gray-600 text-lg leading-relaxed text-center mt-4">če pa si želite nama podarit nekaj oprijemljivega pa si želiva  <a href="https://docs.google.com/spreadsheets/d/1AZnoQw4vC3czUmJbsyrbP1QhfLa2UjkqKCrl0Krpw6o/edit?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">tole</a>.</p>
       </section>
 
       {/* Image Section */}
