@@ -124,7 +124,14 @@ export default function Povabljeni() {
       <section id="help" className="max-w-6xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-[#b17253] mb-6 text-center">Ali želiš pomagati?</h3>
         <p className="text-gray-600 text-lg leading-relaxed text-center">Ker sva že večkrat slišala, naj ne bova trmasta in ne delava vsega sama iščeva, kakšnega pekovskega mojstra ali vajenca, ki bi bil pripravljen speči kakšno dobroto. Če si želiš pomagati, se vpiši v <a href="https://docs.google.com/spreadsheets/d/1s5tt8S0iLu9WvMv3C8WelAbdJPP3aeCN2pZeOF8QZmQ/edit?usp=sharing" target="_blank" className="text-[#b17253] hover:underline">tabelo</a>.</p>
-        <p className="text-gray-600 text-lg leading-relaxed text-center mt-4">Če neveš kam prinesti dobrote, si oglej <a href="https://drive.google.com/file/d/1Y_fMvqrrtySFLOCO-Y1OkrgzKpc8NBje/view?usp=sharing" target="_blank" rel="noreferrer" className="text-[#b17253] hover:underline">ta video</a>.</p>
+        <div className="mt-6 flex justify-center">
+          <video
+            controls
+            playsInline
+            className="w-full max-w-2xl rounded-lg shadow-lg"
+            src="/video/first.mp4"
+          />
+        </div>
       </section>
 
       {/* Image Section */}
